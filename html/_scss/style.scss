@@ -1,0 +1,10 @@
+// Variables
+$color-background: #fff;
+$color-text: #222;
+
+$phone: 480px;
+$tablet: 768px;
+
+@import '_mixins';
+@import '_normalize';
+@import '_main';

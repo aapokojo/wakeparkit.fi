@@ -1,0 +1,90 @@
+// Base
+
+body {
+  background: $color-background;
+  color: $color-text;
+  font-family: "Courier New", Courier;
+  font-size: 10px;
+  font-weight: normal;
+  overflow: scroll;
+}
+
+p {
+  position: absolute;
+  margin-top: 25px;
+  margin-left: 0px;
+  opacity: 0.9;
+}
+
+p.mansku {
+  background-color: $color-background;
+  -webkit-transform: rotate(58deg);
+}
+p.lonkka {
+  background-color: $color-background;
+  -webkit-transform: rotate(-32deg);
+}
+p.hameentie {
+  background-color: $color-background;
+  -webkit-transform: rotate(-44deg);
+}
+p.hesari {
+  background-color: $color-background;
+  -webkit-transform: rotate(-22deg);
+}
+p.linja {
+  background-color: $color-background;
+  -webkit-transform: rotate(37deg);
+}
+p.unioni {
+  background-color: $color-background;
+  -webkit-transform: rotate(90deg);
+}
+p.liisa{
+  background-color: $color-background;
+}
+
+h1 {
+  position: absolute;
+  font-size: 14;
+  background-color: $color-background;
+  opacity: 0.75;
+}
+
+h2 {
+  font-size: 14;
+  background-color: $color-background;
+  opacity: 0.75;
+}
+
+button {
+  background-color: $color-background;
+  border:1px solid $color-button;
+  color: $color-text;
+  font-size:12px;
+  padding:0px 15px;
+}
+
+circle {
+  stroke: red;
+  fill: red;
+  fill-opacity: 0.01;
+  display: none;
+}
+
+#lista {
+  margin-left: 10;
+  font-size: 14;
+}
+
+#locationFailed {
+  display: none;
+}
+
+#noPlaces {
+  display: none;
+}
+
+#places {
+  display: none;
+}
