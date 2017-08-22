@@ -7,6 +7,10 @@ body {
   font-size: 14px;
   font-weight: normal;
   overflow: scroll;
+
+  @include media-query($phone) {
+  font-size: 28px;
+  }
 }
 
 #container {
@@ -16,7 +20,15 @@ body {
 #map {
   margin-right: 10px;
 }
-
+.parklist {
+  width: 100%;
+}
 .park {
-  margin-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+}
+
+.info {
+  margin-left: 10px;
 }
