@@ -4,24 +4,25 @@ body {
   background: $color-background;
   color: $color-text;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: normal;
   overflow: scroll;
 
   @include media-query($phone) {
-  font-size: 28px;
+    font-size: 14px;
+    img {
+      width: 80px;
+      height: 80px;
+      }
   }
 }
 
 #container {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 }
 #map {
   margin-right: 10px;
-}
-.parklist {
-  width: 100%;
 }
 .park {
   display: flex;
