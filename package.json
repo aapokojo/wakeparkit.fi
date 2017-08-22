@@ -9,7 +9,7 @@
     "express": "^4.14.0",
     "mime": "~1.2.7",
     "moment": "^2.15.1",
-    "node-sass": "^3.11.2",
+    "node-sass": "^3.13.1",
     "request": "^2.75.0",
     "request-promise": "^4.1.1"
   },

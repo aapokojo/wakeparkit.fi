@@ -14,6 +14,14 @@ server.get('/media/:id', function(request, response, next) {
   response.sendFile(__dirname + '/html/media/' + request.params.id);
 })
 
+server.get('/scripts/:id', function(request, response, next) {
+  response.sendFile(__dirname + '/html/scripts/' + request.params.id);
+})
+
+server.get('/data.json', function(request, response, next) {
+  response.sendFile(__dirname + '/html/data/data.json');
+})
+
 var port_number = server.listen(process.env.PORT || 3000, function () {
   console.log('Server listening on http://localhost:3000/');
 });
