@@ -1,6 +1,66 @@
 { "wakeparkit": [
     {
-      "key":"wakespot", "name":"Wakespot", "lat":"60.1715187", "lon":"24.9030484"
+      "key":"W",
+      "name":"Wakespot",
+      "lat":"60.1715187",
+      "lon":"24.9030484",
+      "pin_lat":"60.1715187",
+      "pin_lon":"24.9013484",
+      "url":"http://www.wakespot.fi/"
+    },
+    {
+      "key":"L",
+      "name":"Laguuni",
+      "lat":"60.1703557",
+      "lon":"24.8316795",
+      "pin_lat":"60.1690057",
+      "pin_lon":"24.8316795",
+      "url":"http://laguuniin.fi/"
+    },
+    {
+      "key":"W",
+      "name":"Wake Valley",
+      "lat":"61.63989",
+      "lon":"23.5825674",
+      "pin_lat":"61.63989",
+      "pin_lon":"23.5845674",
+      "url":"http://www.wakevalley.fi/"
+    },
+    {
+      "key":"V",
+      "name":"Vesiurheilukeskus Vuokatti",
+      "lat":"64.1389285",
+      "lon":"28.2780896",
+      "pin_lat":"64.1396285",
+      "pin_lon":"28.2790896",
+      "url":"https://www.vesiurheilukeskus.fi/"
+    },
+    {
+      "key":"J",
+      "name":"Wake4Break Joensuu",
+      "lat":"62.5942167",
+      "lon":"29.7365783",
+      "pin_lat":"62.5940167",
+      "pin_lon":"29.7383783",
+      "url":"https://www.facebook.com/wakeparkjoensuu/"
+    },
+    {
+      "key":"U",
+      "name":"Ukkohalla",
+      "lat":"64.740611",
+      "lon":"28.2416133",
+      "pin_lat":"64.740311",
+      "pin_lon":"28.2436133",
+      "url":"http://ukkohalla.fi/wakeboard-esittely/"
+    },
+    {
+      "key":"O",
+      "name":"Oulu Wakepark",
+      "lat":"65.0172075",
+      "lon":"25.4624777",
+      "pin_lat":"65.0172075",
+      "pin_lon":"25.4647377",
+      "url":"https://www.ouluwakepark.com/"
     }
   ]
 }
