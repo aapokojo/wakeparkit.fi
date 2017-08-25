@@ -10,6 +10,10 @@ server.get('/css/style.css', function(request, response, next) {
   response.sendFile(__dirname + '/html/css/style.css');
 })
 
+server.get('/fonts/:id', function(request, response, next) {
+  response.sendFile(__dirname + '/html/fonts/' + request.params.id);
+})
+
 server.get('/media/:id', function(request, response, next) {
   response.sendFile(__dirname + '/html/media/' + request.params.id);
 })

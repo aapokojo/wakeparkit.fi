@@ -18,6 +18,6 @@ fetch('/data.json')
     + "&key=AIzaSyDGv-c2sGWtBXT47oimKVSGKBWRAyd84mU"
     + "\"><div class=\"info\">"
     + "<div class=\"park_title\">" + data.wakeparkit[i].name + "</div>"
-    + "<div class=\"park_url\"><a href=\"" + data.wakeparkit[i].url + "\">&rarr;</a></div></div></div>");
+    + "<div class=\"park_url\"><a href=\"" + data.wakeparkit[i].url + "\">www</a></div></div></div>");
 	});
 });
