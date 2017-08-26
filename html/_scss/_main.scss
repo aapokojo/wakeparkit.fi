@@ -2,19 +2,19 @@
 
 body {
   background: $color-background;
-  background-image: url("/media/background.png");
-  background-repeat: repeat;
-  background-size: 400px;
   color: $color-text;
-  text-shadow: 4px 4px $color-shadow;
   font-family: "malzoo";
   font-size: 48px;
   font-weight: bold;
   overflow: scroll;
+  max-width: 800px;
+  margin: auto;
+  padding: 5px;
 
   @include media-query($phone) {
+    max-width: 99%;
+    min-width: 99%;
     font-size: 24px;
-    background-size: 250px;
     img {
       width: 120px;
       height: 120px;
@@ -22,9 +22,11 @@ body {
     a {
       font-size: 18px;
     }
+    #header {
+      background-size: 100px;
+    }
   }
 }
-
 a {
     background: $color-highlight;
     color: inherit;
@@ -36,7 +38,14 @@ a {
     padding: 10px;
     opacity: 0.8;
 }
-
+#header {
+  background-image: url("/media/background.png");
+  background-repeat: repeat;
+  background-size: 200px;
+  text-shadow: 4px 4px $color-box;
+  text-align: center;
+  padding: 5px;
+}
 #container {
   display: flex;
   flex-direction: column;
@@ -44,7 +53,10 @@ a {
 #map {
   margin-right: 10px;
 }
-.park {
+.park {    
+  box-shadow: 10px 10px $color-box-shadow;
+  text-shadow: 4px 4px $color-shadow-inverse;
+  background: $color-box;
   display: flex;
   flex-direction: row;
   margin: 10px;

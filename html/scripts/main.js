@@ -15,7 +15,12 @@ fetch('/data.json')
     + data.wakeparkit[i].pin_lat
     + ","
     + data.wakeparkit[i].pin_lon
-    + "&style=feature:road.local%7Celement:geometry%7Ccolor:0xffffff&style=feature:landscape%7Celement:geometry.fill%7Ccolor:0x111111&style=element:labels%7Cinvert_lightness:true&style=feature:road.arterial%7Celement:labels%7Cinvert_lightness:false"
+    + "&style=feature:road%7Celement:geometry%7Ccolor:0xffe1b2"
+    + "&style=feature:landscape.man_made%7Celement:geometry.fill%7Ccolor:0xf7e1cc"
+    + "&style=feature:landscape.natural%7Celement:geometry.fill%7Ccolor:0xffbdcb"
+    + "&style=feature:landscape.natural.landcover%7Celement:geometry.fill%7Ccolor:0x00bdbf"
+    + "&style=feature:landscape.natural.terrain%7Celement:geometry.fill%7Ccolor:0x98ceb4"
+    + "&style=feature:water%7Celement:geometry.fill%7Ccolor:0x00bec8"
     + "&key=AIzaSyAtUNkgUu1-VfzdrS5GN_XMggHw3SFYjEk"
     + "\"><div class=\"info\">"
     + "<div class=\"park_title\">" + data.wakeparkit[i].name + "</div>"
