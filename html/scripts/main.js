@@ -6,6 +6,11 @@ fetch('/data.json')
 	$.each( data.wakeparkit, function( i, val ) {
 
 	$( "#container" ).append("<div class=\"park\">"
+    + "<a target=\"_blank\" class=\"map\"href=\"https://www.google.fi/maps?q="
+    + data.wakeparkit[i].pin_lat
+    + ","
+    + data.wakeparkit[i].pin_lon
+    + "\">"
     + "<img src=\"https://maps.googleapis.com/maps/api/staticmap?center="
     + data.wakeparkit[i].lat
     + ","
@@ -25,7 +30,9 @@ fetch('/data.json')
     + "&style=element:labels.text.stroke%7Cvisibility:off"
     + "&style=element:labels.icon%7Cvisibility:off"
     + "&key=AIzaSyAtUNkgUu1-VfzdrS5GN_XMggHw3SFYjEk"
-    + "\"><div class=\"info\">"
+    + "\">"
+    + "</a>"
+    + "<div class=\"info\">"
     + "<div class=\"park_title\">" + data.wakeparkit[i].name + "</div>"
     + "<div class=\"park_location\">" + data.wakeparkit[i].location + "</div>"
     + "<div class=\"park_url\"><a href=\"" + data.wakeparkit[i].url + "\">www</a></div></div></div>");
