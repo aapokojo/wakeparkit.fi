@@ -8,7 +8,8 @@
       "lon":"24.9030484",
       "pin_lat":"60.1715187",
       "pin_lon":"24.9013484",
-      "url":"http://www.wakespot.fi/"
+      "url":"http://www.wakespot.fi/",
+      "facebook":"https://www.facebook.com/WakespotHelsinki"
     },
     {
       "key":"L",
@@ -19,7 +20,8 @@
       "lon":"24.8316795",
       "pin_lat":"60.1690057",
       "pin_lon":"24.8316795",
-      "url":"http://laguuniin.fi/"
+      "url":"http://laguuniin.fi/",
+      "facebook":"https://www.facebook.com/laguuniin"
     },
     {
       "key":"W",
@@ -30,7 +32,8 @@
       "lon":"23.5825674",
       "pin_lat":"61.63989",
       "pin_lon":"23.5845674",
-      "url":"http://www.wakevalley.fi/"
+      "url":"http://www.wakevalley.fi/",
+      "facebook":"https://www.facebook.com/wakevalley"
     },
     {
       "key":"V",
@@ -41,7 +44,8 @@
       "lon":"28.2780896",
       "pin_lat":"64.1396285",
       "pin_lon":"28.2790896",
-      "url":"https://www.vesiurheilukeskus.fi/"
+      "url":"https://www.vesiurheilukeskus.fi/",
+      "facebook":"https://www.facebook.com/vesiurheilukeskus"
     },
     {
       "key":"J",
@@ -64,7 +68,8 @@
       "lon":"28.2416133",
       "pin_lat":"64.740311",
       "pin_lon":"28.2436133",
-      "url":"http://ukkohalla.fi/wakeboard-esittely/"
+      "url":"http://ukkohalla.fi/wakeboard-esittely/",
+      "facebook":"https://www.facebook.com/ukkohallacablepark"      
     },
     {
       "key":"O",
@@ -75,7 +80,8 @@
       "lon":"25.4624777",
       "pin_lat":"65.0172075",
       "pin_lon":"25.4647377",
-      "url":"https://www.ouluwakepark.com/"
+      "url":"https://www.ouluwakepark.com/",
+      "facebook":"https://www.facebook.com/ouluwakepark"
     },
     {
       "key":"J",
@@ -86,7 +92,8 @@
       "lon":"25.744897",
       "pin_lat":"62.235242",
       "pin_lon":"25.744897",
-      "url":"https://gr8wake.fi/"
+      "url":"https://gr8wake.fi/",
+      "facebook":"https://www.facebook.com/Gr8wake"
     }
   ]
 }

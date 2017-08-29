@@ -37,7 +37,10 @@ fetch('/data.json')
     + "<div class=\"park_location\">" + data.wakeparkit[i].location + "</div>"
     + "</div></div>");
     if (data.wakeparkit[i].url != "") {
-    	$("#" + data.wakeparkit[i].id).append("<div class=\"park_url\"><a href=\"" + data.wakeparkit[i].url + "\">www</a></div>");
+    	$("#" + data.wakeparkit[i].id).append("<a href=\"" + data.wakeparkit[i].url + "\">www</a>");
+    }
+    if (data.wakeparkit[i].facebook != "") {
+    	$("#" + data.wakeparkit[i].id).append("<a href=\"" + data.wakeparkit[i].facebook + "\">FB</a>");
     }
 	});
 });
