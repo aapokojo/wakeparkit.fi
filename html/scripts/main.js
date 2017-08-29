@@ -32,9 +32,12 @@ fetch('/data.json')
     + "&key=AIzaSyAtUNkgUu1-VfzdrS5GN_XMggHw3SFYjEk"
     + "\">"
     + "</a>"
-    + "<div class=\"info\">"
+    + "<div class=\"info\" id=\"" + data.wakeparkit[i].id + "\">"
     + "<div class=\"park_title\">" + data.wakeparkit[i].name + "</div>"
     + "<div class=\"park_location\">" + data.wakeparkit[i].location + "</div>"
-    + "<div class=\"park_url\"><a href=\"" + data.wakeparkit[i].url + "\">www</a></div></div></div>");
+    + "</div></div>");
+    if (data.wakeparkit[i].url != "") {
+    	$("#" + data.wakeparkit[i].id).append("<div class=\"park_url\"><a href=\"" + data.wakeparkit[i].url + "\">www</a></div>");
+    }
 	});
 });

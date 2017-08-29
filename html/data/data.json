@@ -1,6 +1,7 @@
 { "wakeparkit": [
     {
       "key":"W",
+      "id": "wakespot",
       "name":"Wakespot",
       "location": "Helsinki",
       "lat":"60.1715187",
@@ -11,6 +12,7 @@
     },
     {
       "key":"L",
+      "id": "laguuni",
       "name":"Laguuni",
       "location": "Espoo",
       "lat":"60.1703557",
@@ -21,6 +23,7 @@
     },
     {
       "key":"W",
+      "id": "wakevalley",
       "name":"Wake Valley",
       "location": "Ylöjärvi",
       "lat":"61.63989",
@@ -31,6 +34,7 @@
     },
     {
       "key":"V",
+      "id": "vesiurheilukeskus",
       "name":"Vesiurheilukeskus",
       "location": "Vuokatti",
       "lat":"64.1389285",
@@ -41,16 +45,19 @@
     },
     {
       "key":"J",
+      "id": "wake4break",
       "name":"Wake4Break",
       "location": "Joensuu",
       "lat":"62.5942167",
       "lon":"29.7365783",
       "pin_lat":"62.5940167",
       "pin_lon":"29.7383783",
-      "url":"https://www.facebook.com/wakeparkjoensuu/"
+      "url":"",
+      "facebook": "https://www.facebook.com/wakeparkjoensuu/"
     },
     {
       "key":"U",
+      "id": "ukkohalla",
       "name":"Ukkohalla",
       "location": "Hyrynsalmi",
       "lat":"64.740611",
@@ -61,6 +68,7 @@
     },
     {
       "key":"O",
+      "id": "ouluwakepark",
       "name":"Oulu Wakepark",
       "location": "Oulu",
       "lat":"65.0172075",
@@ -71,6 +79,7 @@
     },
     {
       "key":"J",
+      "id": "gr8wake",
       "name":"Gr8Wake",
       "location": "Jyväskylä",
       "lat":"62.235242",
