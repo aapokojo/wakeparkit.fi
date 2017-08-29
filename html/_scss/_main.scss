@@ -23,7 +23,8 @@ body {
       font-size: 18px;
     }
     #header {
-      background-size: 100px;
+      background-size: 150px;
+      margin: 10px;
     }
   }
 }
@@ -39,12 +40,13 @@ a {
     opacity: 0.8;
 }
 #header {
-  background-image: url("/media/background.png");
-  background-repeat: repeat;
-  background-size: 200px;
+  background-image: url("/media/background.svg");
+  background-repeat: repeat-x;
+  background-size: 300px;
   text-shadow: 4px 4px $color-box;
   text-align: center;
   padding: 5px;
+  margin: 5px;
 }
 #container {
   display: flex;
@@ -53,7 +55,7 @@ a {
 #map {
   margin-right: 10px;
 }
-.park {    
+.park {
   box-shadow: 10px 10px $color-box-shadow;
   text-shadow: 4px 4px $color-shadow-inverse;
   background: $color-box;
