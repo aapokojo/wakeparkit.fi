@@ -68,6 +68,16 @@
       "pin_lat":"65.0172075",
       "pin_lon":"25.4647377",
       "url":"https://www.ouluwakepark.com/"
+    },
+    {
+      "key":"J",
+      "name":"Gr8Wake",
+      "location": "Jyväskylä",
+      "lat":"62.235242",
+      "lon":"25.744897",
+      "pin_lat":"62.235242",
+      "pin_lon":"25.744897",
+      "url":"https://gr8wake.fi/"
     }
   ]
 }
