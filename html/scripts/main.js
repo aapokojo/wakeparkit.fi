@@ -21,9 +21,13 @@ fetch('/data.json')
     + "&style=feature:landscape.natural.landcover%7Celement:geometry.fill%7Ccolor:0x00bdbf"
     + "&style=feature:landscape.natural.terrain%7Celement:geometry.fill%7Ccolor:0x98ceb4"
     + "&style=feature:water%7Celement:geometry.fill%7Ccolor:0x00bec8"
+    + "&style=element:labels%7Ccolor:0xffffff"
+    + "&style=element:labels.text.stroke%7Cvisibility:off"
+    + "&style=element:labels.icon%7Cvisibility:off"
     + "&key=AIzaSyAtUNkgUu1-VfzdrS5GN_XMggHw3SFYjEk"
     + "\"><div class=\"info\">"
     + "<div class=\"park_title\">" + data.wakeparkit[i].name + "</div>"
+    + "<div class=\"park_location\">" + data.wakeparkit[i].location + "</div>"
     + "<div class=\"park_url\"><a href=\"" + data.wakeparkit[i].url + "\">www</a></div></div></div>");
 	});
 });

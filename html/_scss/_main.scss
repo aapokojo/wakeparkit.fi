@@ -26,6 +26,10 @@ body {
       background-size: 150px;
       margin: 10px;
     }
+    .park_location {
+      font-size: 10px;
+      padding-bottom: 20px;
+    }
   }
 }
 a {
@@ -62,6 +66,13 @@ a {
   display: flex;
   flex-direction: row;
   margin: 15px;
+}
+
+.park_location {
+    font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+    font-size: 16px;
+    font-weight: lighter;
+    padding-bottom: 10px;
 }
 
 .info {

@@ -2,6 +2,7 @@
     {
       "key":"W",
       "name":"Wakespot",
+      "location": "Helsinki",
       "lat":"60.1715187",
       "lon":"24.9030484",
       "pin_lat":"60.1715187",
@@ -11,6 +12,7 @@
     {
       "key":"L",
       "name":"Laguuni",
+      "location": "Espoo",
       "lat":"60.1703557",
       "lon":"24.8316795",
       "pin_lat":"60.1690057",
@@ -20,6 +22,7 @@
     {
       "key":"W",
       "name":"Wake Valley",
+      "location": "Ylöjärvi",
       "lat":"61.63989",
       "lon":"23.5825674",
       "pin_lat":"61.63989",
@@ -28,7 +31,8 @@
     },
     {
       "key":"V",
-      "name":"Vesiurheilukeskus Vuokatti",
+      "name":"Vesiurheilukeskus",
+      "location": "Vuokatti",
       "lat":"64.1389285",
       "lon":"28.2780896",
       "pin_lat":"64.1396285",
@@ -37,7 +41,8 @@
     },
     {
       "key":"J",
-      "name":"Wake4Break Joensuu",
+      "name":"Wake4Break",
+      "location": "Joensuu",
       "lat":"62.5942167",
       "lon":"29.7365783",
       "pin_lat":"62.5940167",
@@ -47,6 +52,7 @@
     {
       "key":"U",
       "name":"Ukkohalla",
+      "location": "Hyrynsalmi",
       "lat":"64.740611",
       "lon":"28.2416133",
       "pin_lat":"64.740311",
@@ -56,6 +62,7 @@
     {
       "key":"O",
       "name":"Oulu Wakepark",
+      "location": "Oulu",
       "lat":"65.0172075",
       "lon":"25.4624777",
       "pin_lat":"65.0172075",
