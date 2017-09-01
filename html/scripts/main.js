@@ -10,7 +10,9 @@ fetch('/data.json')
     + data.wakeparkit[i].pin_lat
     + ","
     + data.wakeparkit[i].pin_lon
-    + "\">"
+    + "\" "
+    + "onclick=\"ga('send', 'event', 'map', 'click', '" + data.wakeparkit[i].id + "')\""
+    + ">"
     + "<img src=\"https://maps.googleapis.com/maps/api/staticmap?center="
     + data.wakeparkit[i].lat
     + ","
@@ -37,10 +39,18 @@ fetch('/data.json')
     + "<div class=\"park_location\">" + data.wakeparkit[i].location + "</div>"
     + "</div></div>");
     if (data.wakeparkit[i].url != "") {
-    	$("#" + data.wakeparkit[i].id).append("<a href=\"" + data.wakeparkit[i].url + "\">www</a>");
+    	$("#" + data.wakeparkit[i].id).append("<a href=\""
+            + data.wakeparkit[i].url
+            + "\" "
+            + "onclick=\"ga('send', 'event', 'www', 'click', '" + data.wakeparkit[i].id + "')\""
+            + ">www</a>");
     }
     if (data.wakeparkit[i].facebook != "") {
-    	$("#" + data.wakeparkit[i].id).append("<a href=\"" + data.wakeparkit[i].facebook + "\">FB</a>");
+    	$("#" + data.wakeparkit[i].id).append("<a href=\""
+            + data.wakeparkit[i].facebook
+            + "\" "
+            + "onclick=\"ga('send', 'event', 'fb', 'click', '" + data.wakeparkit[i].id + "')\""
+            + ">FB</a>");
     }
 	});
 });
