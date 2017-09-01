@@ -69,7 +69,7 @@
       "pin_lat":"64.740311",
       "pin_lon":"28.2436133",
       "url":"http://ukkohalla.fi/wakeboard-esittely/",
-      "facebook":"https://www.facebook.com/ukkohallacablepark"      
+      "facebook":"https://www.facebook.com/ukkohallacablepark"
     },
     {
       "key":"O",
@@ -94,6 +94,30 @@
       "pin_lon":"25.744897",
       "url":"https://gr8wake.fi/",
       "facebook":"https://www.facebook.com/Gr8wake"
+    },
+    {
+      "key":"S",
+      "id": "southbeachwake",
+      "name":"South Beach Wake",
+      "location": "Hämeenlinna",
+      "lat":"60.9908036",
+      "lon":"24.4603596",
+      "pin_lat":"60.9908036",
+      "pin_lon":"24.4616596",
+      "url":"http://www.southbeachwake.fi/",
+      "facebook":"https://www.facebook.com/southbeachwake/"
+    },
+    {
+      "key":"P",
+      "id": "poroholma",
+      "name":"Poroholma",
+      "location": "Rauma",
+      "lat":"61.135264",
+      "lon":"21.4740347",
+      "pin_lat":"61.135064",
+      "pin_lon":"21.4750347",
+      "url":"http://www.poroholma.fi/wakepark",
+      "facebook":"https://www.facebook.com/OtanlahdenKaapelirata/"
     }
   ]
 }
