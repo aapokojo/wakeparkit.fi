@@ -22,6 +22,10 @@ body {
     a {
       font-size: 18px;
     }
+    a.email {
+      font-size: 12px;
+      max-width: 160px;
+    }
     #header {
       background-size: 148px;
       margin: 10px;
@@ -44,7 +48,6 @@ a {
     margin-right: 10px;
     opacity: 0.8;
 }
-
 img {
   width: 300px;
   height: 300px;
@@ -53,6 +56,18 @@ img {
 
 a.map {
   padding: 0px;
+}
+
+a.email {
+    background: $color-background;
+    font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+    font-size: 16px;
+    font-weight: lighter;
+    padding-bottom: 10px;
+    max-width: 200px;
+    margin: auto;
+    display: block;
+    text-align: center;
 }
 
 #header {
@@ -67,6 +82,11 @@ a.map {
 #container {
   display: flex;
   flex-direction: column;
+}
+
+#footer {
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .park {
