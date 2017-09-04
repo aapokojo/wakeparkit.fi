@@ -12,8 +12,8 @@ body {
   padding: 5px;
 
   @include media-query($phone) {
-    max-width: 99%;
-    min-width: 99%;
+    max-width: 96%;
+    min-width: 96%;
     font-size: 24px;
     img {
       width: 120px;
