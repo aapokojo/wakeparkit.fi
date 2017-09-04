@@ -12,8 +12,8 @@ body {
   padding: 5px;
 
   @include media-query($phone) {
-    max-width: 96%;
-    min-width: 96%;
+    max-width: 97%;
+    min-width: 97%;
     font-size: 24px;
     img {
       width: 120px;
@@ -27,7 +27,7 @@ body {
       max-width: 160px;
     }
     #header {
-      background-size: 148px;
+      background-size: 145px;
       margin: 10px;
     }
     .park_location {
