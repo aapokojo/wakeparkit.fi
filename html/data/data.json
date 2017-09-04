@@ -9,7 +9,8 @@
       "pin_lat":"60.1715187",
       "pin_lon":"24.9013484",
       "url":"http://www.wakespot.fi/",
-      "facebook":"https://www.facebook.com/WakespotHelsinki"
+      "facebook":"https://www.facebook.com/WakespotHelsinki",
+      "instagram": "https://www.instagram.com/wakespothelsinki/"
     },
     {
       "key":"L",
@@ -21,7 +22,8 @@
       "pin_lat":"60.1690057",
       "pin_lon":"24.8316795",
       "url":"http://laguuniin.fi/",
-      "facebook":"https://www.facebook.com/laguuniin"
+      "facebook":"https://www.facebook.com/laguuniin",
+      "instagram": "https://www.instagram.com/laguuniin/"
     },
     {
       "key":"W",
@@ -33,7 +35,8 @@
       "pin_lat":"61.63989",
       "pin_lon":"23.5845674",
       "url":"http://www.wakevalley.fi/",
-      "facebook":"https://www.facebook.com/wakevalley"
+      "facebook":"https://www.facebook.com/wakevalley",
+      "instagram": "https://www.instagram.com/wake_valley/"
     },
     {
       "key":"V",
@@ -45,7 +48,8 @@
       "pin_lat":"64.1396285",
       "pin_lon":"28.2790896",
       "url":"https://www.vesiurheilukeskus.fi/",
-      "facebook":"https://www.facebook.com/vesiurheilukeskus"
+      "facebook":"https://www.facebook.com/vesiurheilukeskus",
+      "instagram": "https://www.instagram.com/vesiurheilukeskus/"
     },
     {
       "key":"J",
@@ -57,7 +61,8 @@
       "pin_lat":"62.5940167",
       "pin_lon":"29.7383783",
       "url":"",
-      "facebook": "https://www.facebook.com/wakeparkjoensuu/"
+      "facebook": "https://www.facebook.com/wakeparkjoensuu/",
+      "instagram": "https://www.instagram.com/wake4break/"
     },
     {
       "key":"U",
@@ -69,7 +74,8 @@
       "pin_lat":"64.740311",
       "pin_lon":"28.2436133",
       "url":"http://ukkohalla.fi/wakeboard-esittely/",
-      "facebook":"https://www.facebook.com/ukkohallacablepark"
+      "facebook":"https://www.facebook.com/ukkohallacablepark",
+      "instagram": "https://www.instagram.com/ukkohalla_wakepark/"
     },
     {
       "key":"O",
@@ -81,7 +87,8 @@
       "pin_lat":"65.0172075",
       "pin_lon":"25.4647377",
       "url":"https://www.ouluwakepark.com/",
-      "facebook":"https://www.facebook.com/ouluwakepark"
+      "facebook":"https://www.facebook.com/ouluwakepark",
+      "instagram": "https://www.instagram.com/ouluwakepark/"
     },
     {
       "key":"J",
@@ -93,7 +100,8 @@
       "pin_lat":"62.235242",
       "pin_lon":"25.744897",
       "url":"https://gr8wake.fi/",
-      "facebook":"https://www.facebook.com/Gr8wake"
+      "facebook":"https://www.facebook.com/Gr8wake",
+      "instagram": "https://www.instagram.com/gr8wake_jkl/"
     },
     {
       "key":"S",
@@ -105,7 +113,8 @@
       "pin_lat":"60.9908036",
       "pin_lon":"24.4616596",
       "url":"http://www.southbeachwake.fi/",
-      "facebook":"https://www.facebook.com/southbeachwake/"
+      "facebook":"https://www.facebook.com/southbeachwake/",
+      "instagram": "https://www.instagram.com/southbeachwake/"
     },
     {
       "key":"P",
@@ -117,7 +126,8 @@
       "pin_lat":"61.135064",
       "pin_lon":"21.4750347",
       "url":"http://www.poroholma.fi/wakepark",
-      "facebook":"https://www.facebook.com/OtanlahdenKaapelirata/"
+      "facebook":"https://www.facebook.com/OtanlahdenKaapelirata/",
+      "instagram": ""
     }
   ]
 }

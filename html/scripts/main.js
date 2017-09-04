@@ -52,5 +52,12 @@ fetch('/data.json')
             + "onclick=\"ga('send', 'event', 'fb', 'click', '" + data.wakeparkit[i].id + "')\""
             + ">FB</a>");
     }
+    if (data.wakeparkit[i].instagram != "") {
+        $("#" + data.wakeparkit[i].id).append("<a href=\""
+            + data.wakeparkit[i].instagram
+            + "\" "
+            + "onclick=\"ga('send', 'event', 'ig', 'click', '" + data.wakeparkit[i].id + "')\""
+            + ">ig</a>");
+    }
 	});
 });
