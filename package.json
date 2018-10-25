@@ -2,9 +2,6 @@
   "name": "wakeparkit",
   "version": "0.0.1",
   "description": "Wakeparkit",
-  "engines": {
-    "node": "5.5.0"
-  },
   "dependencies": {
     "express": "^4.14.0",
     "mime": "~1.2.7",
@@ -21,6 +18,6 @@
     "scss": "node_modules/node-sass/bin/node-sass html/_scss/style.scss html/css/style.css",
     "scss:watch": "node_modules/node-sass/bin/node-sass html/_scss/style.scss html/css/style.css -w --output-style compressed",
     "watch": "node_modules/.bin/parallelshell 'npm run server' 'npm run scss:watch'",
-    "heroku-postbuild": "npm run scss"
+    "build": "npm run scss"
   }
 }
