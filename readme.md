@@ -19,9 +19,5 @@ Install now.sh
 # Deploy
 
 $ now
-$ now ls
+$ now alias
 
-Use the last deployed <url> to publish
-
-$ now alias <url> wakeparkit.fi
-$ now alias <url> www.wakeparkit.fi

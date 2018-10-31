@@ -30,9 +30,19 @@ body {
       background-size: 145px;
       margin: 10px;
     }
+    .park {
+      text-shadow: 2px 2px $color-shadow-inverse;
+    }
     .park_location {
       font-size: 12px;
-      padding-bottom: 20px;
+      padding-bottom: 1px;
+    }
+    .park_desc {
+      font-size: 12px;
+      padding-bottom: 12px;
+    }
+    .info {
+      margin-left: 0px;
     }
   }
 }
@@ -60,7 +70,7 @@ a.map {
 
 a.email {
     background: $color-background;
-    font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+    font-family: 'Inconsolata', monospace;
     font-size: 16px;
     font-weight: lighter;
     padding-bottom: 10px;
@@ -97,12 +107,20 @@ a.email {
   flex-direction: row;
   margin: 15px;
 }
-
+.park_title {
+  padding-top: 4px;
+}
 .park_location {
-    font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
-    font-size: 16px;
-    font-weight: lighter;
-    padding-bottom: 10px;
+  font-family: 'Inconsolata', monospace;
+  font-size: 18px;
+  font-weight: lighter;
+  padding-bottom: 5px;
+}
+.park_desc {
+  font-family: 'Inconsolata', monospace;
+  font-size: 18px;
+  font-weight: lighter;
+  padding-bottom: 10px;
 }
 
 .info {
