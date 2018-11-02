@@ -33,6 +33,9 @@ body {
     .park {
       text-shadow: 2px 2px $color-shadow-inverse;
     }
+    .park_title {
+      margin-bottom: -10px;
+    }
     .park_location {
       font-size: 12px;
       padding-bottom: 1px;
@@ -109,17 +112,20 @@ a.email {
 }
 .park_title {
   padding-top: 4px;
+  margin-bottom: -20px;
 }
 .park_location {
   font-family: 'Inconsolata', monospace;
   font-size: 18px;
   font-weight: lighter;
-  padding-bottom: 5px;
+  padding-bottom: 10px;
+  opacity: 0.5;
 }
 .park_desc {
   font-family: 'Inconsolata', monospace;
   font-size: 18px;
   font-weight: lighter;
+  padding-top: 5px;
   padding-bottom: 10px;
 }
 

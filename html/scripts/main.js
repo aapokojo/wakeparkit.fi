@@ -37,7 +37,7 @@ fetch('/data.json')
     + "<div class=\"info\" id=\"" + data.wakeparkit[i].id + "\">"
     + "<div class=\"park_title\">" + data.wakeparkit[i].name + "</div>"
     + "<div class=\"park_location\">" + data.wakeparkit[i].location + "</div>"
-    + "<div class=\"park_desc\"> &#8226; " + data.wakeparkit[i].desc + "</div>"
+    + "<div class=\"park_desc\">Cable: " + data.wakeparkit[i].desc + "</div>"
     + "</div></div>");
     if (data.wakeparkit[i].url != "") {
     	$("#" + data.wakeparkit[i].id).append("<a href=\""
