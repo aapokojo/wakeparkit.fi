@@ -18,7 +18,8 @@ fetch('/data.json')
     + ","
     + data.wakeparkit[i].lon
     + "&zoom=15&size=300x300&maptype=roadmap"
-    + "&markers=color:red%7Clabel:" + data.wakeparkit[i].key + "%7C"
+    + "&markers=icon:" + data.wakeparkit[i].tower
+    + "%7C"
     + data.wakeparkit[i].pin_lat
     + ","
     + data.wakeparkit[i].pin_lon

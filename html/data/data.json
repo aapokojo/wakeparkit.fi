@@ -11,7 +11,8 @@
 			"pin_lon": "24.9013484",
 			"url": "http://www.wakespot.fi/",
 			"facebook": "https://www.facebook.com/WakespotHelsinki",
-			"instagram": "https://www.instagram.com/wakespothelsinki/"
+			"instagram": "https://www.instagram.com/wakespothelsinki/",
+			"tower": "https://wakeparkit.fi/media/Tower.png"
 		},
 		{
 			"key": "L",
@@ -25,7 +26,8 @@
 			"pin_lon": "24.8316795",
 			"url": "http://laguuniin.fi/",
 			"facebook": "https://www.facebook.com/laguuniin",
-			"instagram": "https://www.instagram.com/laguuniin/"
+			"instagram": "https://www.instagram.com/laguuniin/",
+			"tower": "https://wakeparkit.fi/media/Tower.png"
 		},
 		{
 			"key": "W",
@@ -39,7 +41,8 @@
 			"pin_lon": "23.5845674",
 			"url": "http://www.wakevalley.fi/",
 			"facebook": "https://www.facebook.com/wakevalley",
-			"instagram": "https://www.instagram.com/wake_valley/"
+			"instagram": "https://www.instagram.com/wake_valley/",
+			"tower": "https://wakeparkit.fi/media/Tower.png"
 		},
 		{
 			"key": "V",
@@ -53,7 +56,8 @@
 			"pin_lon": "28.2790896",
 			"url": "https://www.vesiurheilukeskus.fi/",
 			"facebook": "https://www.facebook.com/vesiurheilukeskus",
-			"instagram": "https://www.instagram.com/vesiurheilukeskus/"
+			"instagram": "https://www.instagram.com/vesiurheilukeskus/",
+			"tower": "https://wakeparkit.fi/media/Tower.png"
 		},
 		{
 			"key": "J",
@@ -67,7 +71,8 @@
 			"pin_lon": "29.7383783",
 			"url": "http://wake4break.com/",
 			"facebook": "https://www.facebook.com/wake4break/w",
-			"instagram": "https://www.instagram.com/wake4break/"
+			"instagram": "https://www.instagram.com/wake4break/",
+			"tower": "https://wakeparkit.fi/media/Tower.png"
 		},
 		{
 			"key": "U",
@@ -81,7 +86,8 @@
 			"pin_lon": "28.2436133",
 			"url": "http://ukkohalla.fi/wakeboard-esittely/",
 			"facebook": "https://www.facebook.com/ukkohallacablepark",
-			"instagram": "https://www.instagram.com/ukkohalla_cablepark/"
+			"instagram": "https://www.instagram.com/ukkohalla_cablepark/",
+			"tower": "https://wakeparkit.fi/media/Towers.png"
 		},
 		{
 			"key": "O",
@@ -95,7 +101,8 @@
 			"pin_lon": "25.4647377",
 			"url": "https://www.ouluwakepark.com/",
 			"facebook": "https://www.facebook.com/ouluwakepark",
-			"instagram": "https://www.instagram.com/ouluwakepark/"
+			"instagram": "https://www.instagram.com/ouluwakepark/",
+			"tower": "https://wakeparkit.fi/media/Tower.png"
 		},
 		{
 			"key": "J",
@@ -109,7 +116,8 @@
 			"pin_lon": "25.744897",
 			"url": "https://gr8wake.com",
 			"facebook": "https://www.facebook.com/Gr8wake",
-			"instagram": "https://www.instagram.com/gr8wake_jkl/"
+			"instagram": "https://www.instagram.com/gr8wake_jkl/",
+			"tower": "https://wakeparkit.fi/media/Tower.png"
 		},
 		{
 			"key": "S",
@@ -123,7 +131,8 @@
 			"pin_lon": "24.4616596",
 			"url": "http://www.southbeachwake.fi/",
 			"facebook": "https://www.facebook.com/southbeachwake/",
-			"instagram": "https://www.instagram.com/southbeachwake/"
+			"instagram": "https://www.instagram.com/southbeachwake/",
+			"tower": "https://wakeparkit.fi/media/Tower.png"
 		},
 		{
 			"key": "P",
@@ -137,7 +146,8 @@
 			"pin_lon": "21.4750347",
 			"url": "http://www.poroholma.fi/wakepark",
 			"facebook": "https://www.facebook.com/Poroholma/",
-			"instagram": ""
+			"instagram": "",
+			"tower": "https://wakeparkit.fi/media/Tower.png"
 		},
 		{
 			"key": "E",
@@ -151,7 +161,8 @@
 			"pin_lon": "22.9121264",
 			"url": "https://epopwake.fi/",
 			"facebook": "https://www.facebook.com/epopwake/",
-			"instagram": "https://www.instagram.com/epopwake/"
+			"instagram": "https://www.instagram.com/epopwake/",
+			"tower": "https://wakeparkit.fi/media/Tower.png"
 		}
 	]
 }
