@@ -3,7 +3,17 @@ fetch('/data.json')
   return response.json();
 })
 .then(function(data) {
-	$.each( data.wakeparkit, function( i, val ) {
+        $.each( data.wakeparkit, function( i, val ) {
+                
+        var markers = "";
+
+        $.each (data.wakeparkit[i].towers, function (j, val) {
+        markers += "&markers=icon:" + data.wakeparkit[i].towers[j].tower
+        + "%7C"
+        + data.wakeparkit[i].towers[j].lat
+        + ","
+        + data.wakeparkit[i].towers[j].lon
+        });
 
 	$( "#container" ).append("<div class=\"park\">"
     + "<a target=\"_blank\" class=\"map\"href=\"https://www.google.fi/maps?q="
@@ -18,11 +28,7 @@ fetch('/data.json')
     + ","
     + data.wakeparkit[i].lon
     + "&zoom=15&size=300x300&maptype=roadmap"
-    + "&markers=icon:" + data.wakeparkit[i].tower
-    + "%7C"
-    + data.wakeparkit[i].pin_lat
-    + ","
-    + data.wakeparkit[i].pin_lon
+    + markers
     + "&style=feature:road%7Celement:geometry%7Ccolor:0xffe1b2"
     + "&style=feature:landscape.man_made%7Celement:geometry.fill%7Ccolor:0xf7e1cc"
     + "&style=feature:landscape.natural%7Celement:geometry.fill%7Ccolor:0xffbdcb"

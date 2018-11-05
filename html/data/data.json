@@ -12,7 +12,18 @@
 			"url": "http://www.wakespot.fi/",
 			"facebook": "https://www.facebook.com/WakespotHelsinki",
 			"instagram": "https://www.instagram.com/wakespothelsinki/",
-			"tower": "https://wakeparkit.fi/media/OneTower.png"
+			"towers": [
+				{
+					"tower": "https://wakeparkit.fi/media/OneTower.png",
+					"lat": "60.1715187",
+					"lon": "24.9013484"
+				},
+				{
+					"tower": "https://wakeparkit.fi/media/OneTower.png",
+					"lat": "60.1713187",
+					"lon": "24.9043484"
+				}
+			]
 		},
 		{
 			"key": "L",
@@ -27,7 +38,28 @@
 			"url": "http://laguuniin.fi/",
 			"facebook": "https://www.facebook.com/laguuniin",
 			"instagram": "https://www.instagram.com/laguuniin/",
-			"tower": "https://wakeparkit.fi/media/OneTower.png"
+			"towers": [
+				{
+					"tower": "https://wakeparkit.fi/media/OneTower.png",
+					"lat": "60.1690057",
+					"lon": "24.8318795"
+				},
+				{
+					"tower": "https://wakeparkit.fi/media/OneTower.png",
+					"lat": "60.1700057",
+					"lon": "24.8311795"
+				},
+				{
+					"tower": "https://wakeparkit.fi/media/OneTower.png",
+					"lat": "60.1691057",
+					"lon": "24.8328005"
+				},
+				{
+					"tower": "https://wakeparkit.fi/media/OneTower.png",
+					"lat": "60.1701057",
+					"lon": "24.8326795"
+				}
+			]
 		},
 		{
 			"key": "W",
@@ -42,7 +74,38 @@
 			"url": "http://www.wakevalley.fi/",
 			"facebook": "https://www.facebook.com/wakevalley",
 			"instagram": "https://www.instagram.com/wake_valley/",
-			"tower": "https://wakeparkit.fi/media/OneTower.png"
+			"towers": [
+				{
+					"tower": "https://wakeparkit.fi/media/OneTower.png",
+					"lat": "61.63989",
+					"lon": "23.5845674"
+				},
+				{
+					"tower": "https://wakeparkit.fi/media/OneTower.png",
+					"lat": "61.63989",
+					"lon": "23.5815674"
+				},
+				{
+					"tower": "https://wakeparkit.fi/media/OneTower.png",
+					"lat": "61.63959",
+					"lon": "23.5845674"
+				},
+				{
+					"tower": "https://wakeparkit.fi/media/OneTower.png",
+					"lat": "61.63959",
+					"lon": "23.5815674"
+				},
+				{
+					"tower": "https://wakeparkit.fi/media/OneTower.png",
+					"lat": "61.63929",
+					"lon": "23.5845674"
+				},
+				{
+					"tower": "https://wakeparkit.fi/media/OneTower.png",
+					"lat": "61.63929",
+					"lon": "23.5815674"
+				}
+			]
 		},
 		{
 			"key": "V",
@@ -57,7 +120,18 @@
 			"url": "https://www.vesiurheilukeskus.fi/",
 			"facebook": "https://www.facebook.com/vesiurheilukeskus",
 			"instagram": "https://www.instagram.com/vesiurheilukeskus/",
-			"tower": "https://wakeparkit.fi/media/OneTower.png"
+			"towers": [
+				{
+					"tower": "https://wakeparkit.fi/media/OneTower.png",
+					"lat": "64.1396285",
+					"lon": "28.2790896"
+				},
+				{
+					"tower": "https://wakeparkit.fi/media/OneTower.png",
+					"lat": "64.1375285",
+					"lon": "28.2804896"
+				}
+			]
 		},
 		{
 			"key": "J",
@@ -68,11 +142,22 @@
 			"lat": "62.5942167",
 			"lon": "29.7365783",
 			"pin_lat": "62.5940167",
-			"pin_lon": "29.7383783",
+			"pin_lon": "29.7383783",	
 			"url": "http://wake4break.com/",
 			"facebook": "https://www.facebook.com/wake4break/w",
 			"instagram": "https://www.instagram.com/wake4break/",
-			"tower": "https://wakeparkit.fi/media/OneTower.png"
+			"towers": [
+				{
+					"tower": "https://wakeparkit.fi/media/OneTower.png",
+					"lat": "62.5940167",
+					"lon": "29.7383783"
+				},
+				{
+					"tower": "https://wakeparkit.fi/media/OneTower.png",
+					"lat": "62.5938167",
+					"lon": "29.7343783"
+				}
+			]
 		},
 		{
 			"key": "U",
@@ -87,7 +172,28 @@
 			"url": "http://ukkohalla.fi/wakeboard-esittely/",
 			"facebook": "https://www.facebook.com/ukkohallacablepark",
 			"instagram": "https://www.instagram.com/ukkohalla_cablepark/",
-			"tower": "https://wakeparkit.fi/media/Towers.png"
+			"towers": [
+				{
+					"tower": "https://wakeparkit.fi/media/Towers.png",
+					"lat": "64.740311",
+					"lon": "28.2436133"
+				},
+				{
+					"tower": "https://wakeparkit.fi/media/Towers.png",
+					"lat": "64.742711",
+					"lon": "28.2420133"
+				},
+				{
+					"tower": "https://wakeparkit.fi/media/Towers.png",
+					"lat": "64.742311",
+					"lon": "28.2393133"
+				},
+				{
+					"tower": "https://wakeparkit.fi/media/Towers.png",
+					"lat": "64.739911",
+					"lon": "28.2410133"
+				}
+			]
 		},
 		{
 			"key": "O",
@@ -102,7 +208,18 @@
 			"url": "https://www.ouluwakepark.com/",
 			"facebook": "https://www.facebook.com/ouluwakepark",
 			"instagram": "https://www.instagram.com/ouluwakepark/",
-			"tower": "https://wakeparkit.fi/media/OneTower.png"
+			"towers": [
+				{
+					"tower": "https://wakeparkit.fi/media/OneTower.png",
+					"lat": "65.0172075",
+					"lon": "25.4647377"
+				},
+				{
+					"tower": "https://wakeparkit.fi/media/OneTower.png",
+					"lat": "65.0159075",
+					"lon": "25.4629377"
+				}
+			]
 		},
 		{
 			"key": "J",
@@ -117,7 +234,18 @@
 			"url": "https://gr8wake.com",
 			"facebook": "https://www.facebook.com/Gr8wake",
 			"instagram": "https://www.instagram.com/gr8wake_jkl/",
-			"tower": "https://wakeparkit.fi/media/OneTower.png"
+			"towers": [
+				{
+					"tower": "https://wakeparkit.fi/media/OneTower.png",
+					"lat": "62.2350242",
+					"lon": "25.744897"
+				},
+				{
+					"tower": "https://wakeparkit.fi/media/OneTower.png",
+					"lat": "62.2335242",
+					"lon": "25.748497"
+				}
+			]
 		},
 		{
 			"key": "S",
@@ -132,7 +260,18 @@
 			"url": "http://www.southbeachwake.fi/",
 			"facebook": "https://www.facebook.com/southbeachwake/",
 			"instagram": "https://www.instagram.com/southbeachwake/",
-			"tower": "https://wakeparkit.fi/media/OneTower.png"
+			"towers": [
+				{
+					"tower": "https://wakeparkit.fi/media/OneTower.png",
+					"lat": "60.9908036",
+					"lon": "24.4616596"
+				},
+				{
+					"tower": "https://wakeparkit.fi/media/OneTower.png",
+					"lat": "60.9885036",
+					"lon": "24.4615596"
+				}
+			]
 		},
 		{
 			"key": "P",
@@ -147,7 +286,18 @@
 			"url": "http://www.poroholma.fi/wakepark",
 			"facebook": "https://www.facebook.com/Poroholma/",
 			"instagram": "",
-			"tower": "https://wakeparkit.fi/media/OneTower.png"
+			"towers": [
+				{
+					"tower": "https://wakeparkit.fi/media/OneTower.png",
+					"lat": "61.135264",
+					"lon": "21.4750347"
+				},
+				{
+					"tower": "https://wakeparkit.fi/media/OneTower.png",
+					"lat": "61.135164",
+					"lon": "21.4725047"
+				}
+			]
 		},
 		{
 			"key": "E",
@@ -162,7 +312,18 @@
 			"url": "https://epopwake.fi/",
 			"facebook": "https://www.facebook.com/epopwake/",
 			"instagram": "https://www.instagram.com/epopwake/",
-			"tower": "https://wakeparkit.fi/media/OneTower.png"
+			"towers": [
+				{
+					"tower": "https://wakeparkit.fi/media/OneTower.png",
+					"lat": "62.7951241",
+					"lon": "22.9121264"
+				},
+				{
+					"tower": "https://wakeparkit.fi/media/OneTower.png",
+					"lat": "62.7955241",
+					"lon": "22.9096264"
+				}
+			]
 		}
 	]
 }
