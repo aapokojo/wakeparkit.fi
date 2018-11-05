@@ -12,7 +12,7 @@
 			"url": "http://www.wakespot.fi/",
 			"facebook": "https://www.facebook.com/WakespotHelsinki",
 			"instagram": "https://www.instagram.com/wakespothelsinki/",
-			"tower": "https://wakeparkit.fi/media/Tower.png"
+			"tower": "https://wakeparkit.fi/media/OneTower.png"
 		},
 		{
 			"key": "L",
@@ -27,7 +27,7 @@
 			"url": "http://laguuniin.fi/",
 			"facebook": "https://www.facebook.com/laguuniin",
 			"instagram": "https://www.instagram.com/laguuniin/",
-			"tower": "https://wakeparkit.fi/media/Tower.png"
+			"tower": "https://wakeparkit.fi/media/OneTower.png"
 		},
 		{
 			"key": "W",
@@ -42,7 +42,7 @@
 			"url": "http://www.wakevalley.fi/",
 			"facebook": "https://www.facebook.com/wakevalley",
 			"instagram": "https://www.instagram.com/wake_valley/",
-			"tower": "https://wakeparkit.fi/media/Tower.png"
+			"tower": "https://wakeparkit.fi/media/OneTower.png"
 		},
 		{
 			"key": "V",
@@ -57,7 +57,7 @@
 			"url": "https://www.vesiurheilukeskus.fi/",
 			"facebook": "https://www.facebook.com/vesiurheilukeskus",
 			"instagram": "https://www.instagram.com/vesiurheilukeskus/",
-			"tower": "https://wakeparkit.fi/media/Tower.png"
+			"tower": "https://wakeparkit.fi/media/OneTower.png"
 		},
 		{
 			"key": "J",
@@ -72,7 +72,7 @@
 			"url": "http://wake4break.com/",
 			"facebook": "https://www.facebook.com/wake4break/w",
 			"instagram": "https://www.instagram.com/wake4break/",
-			"tower": "https://wakeparkit.fi/media/Tower.png"
+			"tower": "https://wakeparkit.fi/media/OneTower.png"
 		},
 		{
 			"key": "U",
@@ -102,7 +102,7 @@
 			"url": "https://www.ouluwakepark.com/",
 			"facebook": "https://www.facebook.com/ouluwakepark",
 			"instagram": "https://www.instagram.com/ouluwakepark/",
-			"tower": "https://wakeparkit.fi/media/Tower.png"
+			"tower": "https://wakeparkit.fi/media/OneTower.png"
 		},
 		{
 			"key": "J",
@@ -117,7 +117,7 @@
 			"url": "https://gr8wake.com",
 			"facebook": "https://www.facebook.com/Gr8wake",
 			"instagram": "https://www.instagram.com/gr8wake_jkl/",
-			"tower": "https://wakeparkit.fi/media/Tower.png"
+			"tower": "https://wakeparkit.fi/media/OneTower.png"
 		},
 		{
 			"key": "S",
@@ -132,7 +132,7 @@
 			"url": "http://www.southbeachwake.fi/",
 			"facebook": "https://www.facebook.com/southbeachwake/",
 			"instagram": "https://www.instagram.com/southbeachwake/",
-			"tower": "https://wakeparkit.fi/media/Tower.png"
+			"tower": "https://wakeparkit.fi/media/OneTower.png"
 		},
 		{
 			"key": "P",
@@ -147,7 +147,7 @@
 			"url": "http://www.poroholma.fi/wakepark",
 			"facebook": "https://www.facebook.com/Poroholma/",
 			"instagram": "",
-			"tower": "https://wakeparkit.fi/media/Tower.png"
+			"tower": "https://wakeparkit.fi/media/OneTower.png"
 		},
 		{
 			"key": "E",
@@ -162,7 +162,7 @@
 			"url": "https://epopwake.fi/",
 			"facebook": "https://www.facebook.com/epopwake/",
 			"instagram": "https://www.instagram.com/epopwake/",
-			"tower": "https://wakeparkit.fi/media/Tower.png"
+			"tower": "https://wakeparkit.fi/media/OneTower.png"
 		}
 	]
 }
