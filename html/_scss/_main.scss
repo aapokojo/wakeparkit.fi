@@ -30,6 +30,9 @@ body {
       background-size: 145px;
       margin: 10px;
     }
+    #gear {
+      font-size: 24px;
+    }
     .park {
       text-shadow: 2px 2px $color-shadow-inverse;
     }
@@ -76,6 +79,7 @@ a.email {
     font-family: 'Inconsolata', monospace;
     font-size: 16px;
     font-weight: lighter;
+    padding-top: 50px;
     padding-bottom: 10px;
     max-width: 200px;
     margin: auto;
@@ -102,6 +106,35 @@ a.email {
   margin-bottom: 10px;
 }
 
+#gear {
+  font-family: 'Inconsolata', monospace;
+  font-size: 36px;
+  font-weight: lighter;
+  margin: 15px;
+  padding-top: 20px;
+  background: none;
+  text-shadow: 4px 4px $color-box;
+}
+#products {
+  display: flex;
+}
+#promo {
+  text-shadow: 4px 4px $color-shadow-inverse;
+  background: none;
+  font-family: 'Inconsolata', monospace;
+  font-size: 18px;
+  font-weight: lighter;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+#buy {
+  background: none;
+  text-decoration: none;
+}
+#bag {
+  box-shadow: 10px 10px $color-box-shadow;
+  text-shadow: 4px 4px $color-shadow-inverse;
+}
 .park {
   box-shadow: 10px 10px $color-box-shadow;
   text-shadow: 4px 4px $color-shadow-inverse;
@@ -128,7 +161,6 @@ a.email {
   padding-top: 5px;
   padding-bottom: 10px;
 }
-
 .info {
   margin-left: 10px;
 }

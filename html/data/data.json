@@ -62,6 +62,32 @@
 			]
 		},
 		{
+			"key": "D",
+			"id": "droppark",
+			"name": "Drop Wake Park",
+			"location": "Helsinki",
+			"desc": "Two-tower",
+			"lat": "60.203401",
+			"lon": "24.8497014",
+			"pin_lat": "60.203401",
+			"pin_lon": "24.8497014",
+			"url": "https://droppark.fi/",
+			"facebook": "https://web.facebook.com/DROPPARKHELSINKI/",
+			"instagram": "",
+			"towers": [
+				{
+					"tower": "https://wakeparkit.fi/media/OneTower.png",
+					"lat": "60.202801",
+					"lon": "24.8515014"
+				},
+				{
+					"tower": "https://wakeparkit.fi/media/OneTower.png",
+					"lat": "60.202501",
+					"lon": "24.8497014"
+				}
+			]
+		},
+		{
 			"key": "W",
 			"id": "wakevalley",
 			"name": "Wake Valley",
