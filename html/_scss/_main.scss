@@ -116,7 +116,10 @@ a.email {
   text-shadow: 4px 4px $color-box;
 }
 #products {
+  width: auto;
   display: flex;
+  overflow-y: hidden;
+  overflow-x: scroll;
 }
 #promo {
   text-shadow: 4px 4px $color-shadow-inverse;
@@ -126,6 +129,7 @@ a.email {
   font-weight: lighter;
   margin-left: 15px;
   margin-right: 15px;
+  padding-right: 15px;
 }
 #buy {
   background: none;
