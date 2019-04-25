@@ -62,16 +62,16 @@
 			]
 		},
 		{
-			"key": "D",
-			"id": "droppark",
-			"name": "Drop Wake Park",
+			"key": "R",
+			"id": "ridenjoy",
+			"name": "Ridenjoy",
 			"location": "Helsinki",
 			"desc": "Two-tower",
 			"lat": "60.203401",
 			"lon": "24.8497014",
 			"pin_lat": "60.203107",
 			"pin_lon": "24.852077",
-			"url": "https://droppark.fi/",
+			"url": "https://ridenjoy.fi/",
 			"facebook": "https://web.facebook.com/DROPPARKHELSINKI/",
 			"instagram": "",
 			"towers": [
