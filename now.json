@@ -1,7 +1,16 @@
 {
+    "version": 2,
     "name": "wakeparkit",
     "alias": [
         "wakeparkit.fi",
         "www.wakeparkit.fi"
-        ]
+        ],
+    "builds": [
+        { "src": "index.html", "use": "@now/static" },
+        { "src": "css/*.css", "use": "@now/static" },
+        { "src": "fonts/*.*", "use": "@now/static" },
+        { "src": "scripts/*.js", "use": "@now/static" },
+        { "src": "data/*.json", "use": "@now/static" },
+        { "src": "media/*.*", "use": "@now/static" }
+    ]
 }

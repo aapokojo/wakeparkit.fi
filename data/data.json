@@ -1,0 +1,381 @@
+{ "wakeparkit": [
+		{
+			"key": "W",
+			"id": "wakespot",
+			"name": "Wakespot",
+			"location": "Helsinki",
+			"desc": "Two-tower",
+			"lat": "60.1715187",
+			"lon": "24.9030484",
+			"pin_lat": "60.1715187",
+			"pin_lon": "24.9013484",
+			"url": "http://www.wakespot.fi/",
+			"facebook": "https://www.facebook.com/WakespotHelsinki",
+			"instagram": "https://www.instagram.com/wakespothelsinki/",
+			"towers": [
+				{
+					"tower": "https://wakeparkit.fi/media/OneTower.png",
+					"lat": "60.1715187",
+					"lon": "24.9013484"
+				},
+				{
+					"tower": "https://wakeparkit.fi/media/OneTower.png",
+					"lat": "60.1713187",
+					"lon": "24.9043484"
+				}
+			]
+		},
+		{
+			"key": "L",
+			"id": "laguuni",
+			"name": "Laguuni",
+			"location": "Espoo",
+			"desc": "2 x Two-tower",
+			"lat": "60.1703557",
+			"lon": "24.8316795",
+			"pin_lat": "60.1690057",
+			"pin_lon": "24.8316795",
+			"url": "http://laguuniin.fi/",
+			"facebook": "https://www.facebook.com/laguuniin",
+			"instagram": "https://www.instagram.com/laguuniin/",
+			"towers": [
+				{
+					"tower": "https://wakeparkit.fi/media/OneTower.png",
+					"lat": "60.1690057",
+					"lon": "24.8318795"
+				},
+				{
+					"tower": "https://wakeparkit.fi/media/OneTower.png",
+					"lat": "60.1700057",
+					"lon": "24.8311795"
+				},
+				{
+					"tower": "https://wakeparkit.fi/media/OneTower.png",
+					"lat": "60.1691057",
+					"lon": "24.8328005"
+				},
+				{
+					"tower": "https://wakeparkit.fi/media/OneTower.png",
+					"lat": "60.1701057",
+					"lon": "24.8326795"
+				}
+			]
+		},
+		{
+			"key": "R",
+			"id": "ridenjoy",
+			"name": "Ridenjoy",
+			"location": "Helsinki",
+			"desc": "Two-tower",
+			"lat": "60.203401",
+			"lon": "24.8497014",
+			"pin_lat": "60.203107",
+			"pin_lon": "24.852077",
+			"url": "https://ridenjoy.fi/",
+			"facebook": "https://web.facebook.com/DROPPARKHELSINKI/",
+			"instagram": "",
+			"towers": [
+				{
+					"tower": "https://wakeparkit.fi/media/OneTower.png",
+					"lat": "60.203201",
+					"lon": "24.8517014"
+				},
+				{
+					"tower": "https://wakeparkit.fi/media/OneTower.png",
+					"lat": "60.203501",
+					"lon": "24.8493014"
+				}
+			]
+		},
+		{
+			"key": "W",
+			"id": "wakevalley",
+			"name": "Wake Valley",
+			"location": "Ylöjärvi",
+			"desc": "3 x Two-tower",
+			"lat": "61.63989",
+			"lon": "23.5825674",
+			"pin_lat": "61.63989",
+			"pin_lon": "23.5845674",
+			"url": "http://www.wakevalley.fi/",
+			"facebook": "https://www.facebook.com/wakevalley",
+			"instagram": "https://www.instagram.com/wake_valley/",
+			"towers": [
+				{
+					"tower": "https://wakeparkit.fi/media/OneTower.png",
+					"lat": "61.63989",
+					"lon": "23.5845674"
+				},
+				{
+					"tower": "https://wakeparkit.fi/media/OneTower.png",
+					"lat": "61.63989",
+					"lon": "23.5815674"
+				},
+				{
+					"tower": "https://wakeparkit.fi/media/OneTower.png",
+					"lat": "61.63959",
+					"lon": "23.5845674"
+				},
+				{
+					"tower": "https://wakeparkit.fi/media/OneTower.png",
+					"lat": "61.63959",
+					"lon": "23.5815674"
+				},
+				{
+					"tower": "https://wakeparkit.fi/media/OneTower.png",
+					"lat": "61.63929",
+					"lon": "23.5845674"
+				},
+				{
+					"tower": "https://wakeparkit.fi/media/OneTower.png",
+					"lat": "61.63929",
+					"lon": "23.5815674"
+				}
+			]
+		},
+		{
+			"key": "W",
+			"id": "wakevalley_tre",
+			"name": "Wake Valley Tampere",
+			"location": "Tampere",
+			"desc": "Two-tower",
+			"lat": "61.4907583",
+			"lon": "23.732685",
+			"pin_lat": "61.4907583",
+			"pin_lon": "23.732685",
+			"url": "http://www.wakevalley.fi/",
+			"facebook": "https://www.facebook.com/wakevalley",
+			"instagram": "https://www.instagram.com/wake_valley/",
+			"towers": [
+				{
+					"tower": "https://wakeparkit.fi/media/OneTower.png",
+					"lat": "61.4904583",
+					"lon": "23.730887"
+				},
+				{
+					"tower": "https://wakeparkit.fi/media/OneTower.png",
+					"lat": "61.4905583",
+					"lon": "23.735887"
+				}
+			]
+		},
+		{
+			"key": "V",
+			"id": "vesiurheilukeskus",
+			"name": "Vesiurheilukeskus",
+			"location": "Vuokatti",
+			"desc": "Two-tower",
+			"lat": "64.1389285",
+			"lon": "28.2780896",
+			"pin_lat": "64.1396285",
+			"pin_lon": "28.2790896",
+			"url": "https://www.vesiurheilukeskus.fi/",
+			"facebook": "https://www.facebook.com/vesiurheilukeskus",
+			"instagram": "https://www.instagram.com/vesiurheilukeskus/",
+			"towers": [
+				{
+					"tower": "https://wakeparkit.fi/media/OneTower.png",
+					"lat": "64.1396285",
+					"lon": "28.2790896"
+				},
+				{
+					"tower": "https://wakeparkit.fi/media/OneTower.png",
+					"lat": "64.1375285",
+					"lon": "28.2804896"
+				}
+			]
+		},
+		{
+			"key": "J",
+			"id": "wake4break",
+			"name": "Wake4Break",
+			"location": "Joensuu",
+			"desc": "Two-tower",
+			"lat": "62.5942167",
+			"lon": "29.7365783",
+			"pin_lat": "62.5940167",
+			"pin_lon": "29.7383783",	
+			"url": "http://wake4break.com/",
+			"facebook": "https://www.facebook.com/wake4break/w",
+			"instagram": "https://www.instagram.com/wake4break/",
+			"towers": [
+				{
+					"tower": "https://wakeparkit.fi/media/OneTower.png",
+					"lat": "62.5940167",
+					"lon": "29.7383783"
+				},
+				{
+					"tower": "https://wakeparkit.fi/media/OneTower.png",
+					"lat": "62.5938167",
+					"lon": "29.7343783"
+				}
+			]
+		},
+		{
+			"key": "U",
+			"id": "ukkohalla",
+			"name": "Ukkohalla",
+			"location": "Hyrynsalmi",
+			"desc": "4-tower",
+			"lat": "64.740611",
+			"lon": "28.2416133",
+			"pin_lat": "64.740311",
+			"pin_lon": "28.2436133",
+			"url": "http://ukkohalla.fi/wakeboard-esittely/",
+			"facebook": "https://www.facebook.com/ukkohallacablepark",
+			"instagram": "https://www.instagram.com/ukkohalla_cablepark/",
+			"towers": [
+				{
+					"tower": "https://wakeparkit.fi/media/Towers.png",
+					"lat": "64.740311",
+					"lon": "28.2436133"
+				},
+				{
+					"tower": "https://wakeparkit.fi/media/Towers.png",
+					"lat": "64.742711",
+					"lon": "28.2420133"
+				},
+				{
+					"tower": "https://wakeparkit.fi/media/Towers.png",
+					"lat": "64.742311",
+					"lon": "28.2393133"
+				},
+				{
+					"tower": "https://wakeparkit.fi/media/Towers.png",
+					"lat": "64.739911",
+					"lon": "28.2410133"
+				}
+			]
+		},
+		{
+			"key": "O",
+			"id": "ouluwakepark",
+			"name": "Oulu Wakepark",
+			"location": "Oulu",
+			"desc": "Two-tower",
+			"lat": "65.0172075",
+			"lon": "25.4624777",
+			"pin_lat": "65.0172075",
+			"pin_lon": "25.4647377",
+			"url": "https://www.ouluwakepark.com/",
+			"facebook": "https://www.facebook.com/ouluwakepark",
+			"instagram": "https://www.instagram.com/ouluwakepark/",
+			"towers": [
+				{
+					"tower": "https://wakeparkit.fi/media/OneTower.png",
+					"lat": "65.0172075",
+					"lon": "25.4647377"
+				},
+				{
+					"tower": "https://wakeparkit.fi/media/OneTower.png",
+					"lat": "65.0159075",
+					"lon": "25.4629377"
+				}
+			]
+		},
+		{
+			"key": "J",
+			"id": "gr8wake",
+			"name": "Gr8Wake",
+			"location": "Jyväskylä",
+			"desc": "Two-tower",
+			"lat": "62.235242",
+			"lon": "25.744897",
+			"pin_lat": "62.235242",
+			"pin_lon": "25.744897",
+			"url": "https://gr8wake.com",
+			"facebook": "https://www.facebook.com/Gr8wake",
+			"instagram": "https://www.instagram.com/gr8wake_jkl/",
+			"towers": [
+				{
+					"tower": "https://wakeparkit.fi/media/OneTower.png",
+					"lat": "62.2350242",
+					"lon": "25.744897"
+				},
+				{
+					"tower": "https://wakeparkit.fi/media/OneTower.png",
+					"lat": "62.2335242",
+					"lon": "25.748497"
+				}
+			]
+		},
+		{
+			"key": "S",
+			"id": "southbeachwake",
+			"name": "South Beach Wake",
+			"location": "Hämeenlinna",
+			"desc": "Two-tower",
+			"lat": "60.9908036",
+			"lon": "24.4603596",
+			"pin_lat": "60.9908036",
+			"pin_lon": "24.4616596",
+			"url": "http://www.southbeachwake.fi/",
+			"facebook": "https://www.facebook.com/southbeachwake/",
+			"instagram": "https://www.instagram.com/southbeachwake/",
+			"towers": [
+				{
+					"tower": "https://wakeparkit.fi/media/OneTower.png",
+					"lat": "60.9908036",
+					"lon": "24.4616596"
+				},
+				{
+					"tower": "https://wakeparkit.fi/media/OneTower.png",
+					"lat": "60.9885036",
+					"lon": "24.4615596"
+				}
+			]
+		},
+		{
+			"key": "P",
+			"id": "poroholma",
+			"name": "Poroholma",
+			"location": "Rauma",
+			"desc": "Two-tower",
+			"lat": "61.135264",
+			"lon": "21.4740347",
+			"pin_lat": "61.135064",
+			"pin_lon": "21.4750347",
+			"url": "http://www.poroholma.fi/wakepark",
+			"facebook": "https://www.facebook.com/Poroholma/",
+			"instagram": "",
+			"towers": [
+				{
+					"tower": "https://wakeparkit.fi/media/OneTower.png",
+					"lat": "61.135264",
+					"lon": "21.4750347"
+				},
+				{
+					"tower": "https://wakeparkit.fi/media/OneTower.png",
+					"lat": "61.135164",
+					"lon": "21.4725047"
+				}
+			]
+		},
+		{
+			"key": "E",
+			"id": "epopwake",
+			"name": "EPOP Wake",
+			"location": "Seinäjoki",
+			"desc": "Two-tower",
+			"lat": "62.7951241",
+			"lon": "22.9101845",
+			"pin_lat": "62.7951241",
+			"pin_lon": "22.9121264",
+			"url": "https://epopwake.fi/",
+			"facebook": "https://www.facebook.com/epopwake/",
+			"instagram": "https://www.instagram.com/epopwake/",
+			"towers": [
+				{
+					"tower": "https://wakeparkit.fi/media/OneTower.png",
+					"lat": "62.7951241",
+					"lon": "22.9121264"
+				},
+				{
+					"tower": "https://wakeparkit.fi/media/OneTower.png",
+					"lat": "62.7955241",
+					"lon": "22.9096264"
+				}
+			]
+		}
+	]
+}
