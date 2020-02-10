@@ -134,10 +134,16 @@ a.email {
   padding-top: 4px;
   margin-bottom: -20px; }
 
-.park_fav {
+.park_weather {
   font-family: 'Inconsolata', monospace;
   font-size: 18px;
   margin-top: 16px;
+}
+
+.park_temperature {
+  font-family: 'Inconsolata', monospace;
+  font-size: 48px;
+  margin-top: 8px;
 }
 
 .park_location {

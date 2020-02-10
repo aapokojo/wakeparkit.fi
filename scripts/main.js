@@ -68,14 +68,32 @@ function render() {
                 } else {
                         parkItem.querySelector(".ig_link").remove();
                 }
+
+                parkItem.querySelector(".park_weather").id = i;
+                parkItem.querySelector(".park_temperature").id = wakeparkit[i].id;
+
                 container.append(parkItem);
         }
 }
 
 function sendEvent(event_category, event_label) {
-        console.log( event_category, event_label);
         gtag('event', 'click', {
                 'event_category': event_category,
                 'event_label': event_label
               });
+}
+
+function showWeather(i) {
+        fetch('https://api.openweathermap.org/data/2.5/forecast'
+                + '?lat=' + wakeparkit[i].lat
+                + '&lon=' + wakeparkit[i].lon
+                + '&units=metric'
+                + '&appid=09df1a8594f61537951eb23228d2aa0b')
+        .then(function(response) {
+                return response.json();
+        })
+         .then(function(weather) {
+                document.getElementById(wakeparkit[i].id).getElementsByClassName("park_temperature")[0].innerHTML = weather.list[0].main.temp.toFixed(0) + "°C";
+         });
+
 }
