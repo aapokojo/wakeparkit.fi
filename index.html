@@ -29,14 +29,14 @@
 <div id="container">
     <template id="parkTemplate">
       <div class="park">
-        <a target="_blank" class="map"><img class="park_map" /></a>
+        <a target="_blank" class="map" onclick="sendEvent('map', this.id)"><img class="park_map" /></a>
         <div class="info">
           <div class="park_title"></div>
           <div class="park_location"></div>
           <div class="park_desc"></div>
-          <a class="www_link">www</a>
-          <a class="fb_link">FB</a>
-          <a class="ig_link">ig</a>
+          <a class="www_link" onclick="sendEvent('www', this.id)">www</a>
+          <a class="fb_link" onclick="sendEvent('fb', this.id)">FB</a>
+          <a class="ig_link" onclick="sendEvent('ig', this.id)">ig</a>
         </div>
       </div>
     </template>

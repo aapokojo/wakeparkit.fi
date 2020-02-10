@@ -33,44 +33,27 @@ fetch('data/data.json')
                 + "&zoom=15&size=300x300&maptype=roadmap&markers=icon:https://wakeparkit.fi/media/OneTower.png%7C60.1715187,24.9013484" 
                 + markers
                 + "&style=feature:road%7Celement:geometry%7Ccolor:0xffe1b2&style=feature:landscape.man_made%7Celement:geometry.fill%7Ccolor:0xf7e1cc&style=feature:landscape.natural%7Celement:geometry.fill%7Ccolor:0xffbdcb&style=feature:landscape.natural.landcover%7Celement:geometry.fill%7Ccolor:0x00bdbf&style=feature:landscape.natural.terrain%7Celement:geometry.fill%7Ccolor:0x98ceb4&style=feature:water%7Celement:geometry.fill%7Ccolor:0x00bec8&style=element:labels%7Ccolor:0xffffff&style=element:labels.text.stroke%7Cvisibility:off&style=element:labels.icon%7Cvisibility:off&key=AIzaSyAtUNkgUu1-VfzdrS5GN_XMggHw3SFYjEk";
-                parkItem.querySelector(".map").href = "https://www.google.fi/maps?q=" + data.wakeparkit[i].lat + "," + data.wakeparkit[i].lon + "\""; 
-                parkItem.querySelector(".map").onclick = function() { 
-                        gtag('event', 'click', {
-                                'event_category': 'map',
-                                'event_label': data.wakeparkit[i].id
-                              });
-                    }
+                
+                parkItem.querySelector(".map").href = "https://www.google.fi/maps?q=" + data.wakeparkit[i].lat + "," + data.wakeparkit[i].lon; 
+                parkItem.querySelector(".map").id = data.wakeparkit[i].id;
 
                 if (data.wakeparkit[i].url != "") {
                         parkItem.querySelector(".www_link").href = data.wakeparkit[i].url;
-                        parkItem.querySelector(".www_link").onclick = function() { 
-                                gtag('event', 'click', {
-                                        'event_category': 'www',
-                                        'event_label': data.wakeparkit[i].id
-                                      });
-                            }
+                        parkItem.querySelector(".www_link").id = data.wakeparkit[i].id;
                 } else {
                         parkItem.querySelector(".www_link").remove();
                 }
                 if (data.wakeparkit[i].facebook != "") {
                         parkItem.querySelector(".fb_link").href = data.wakeparkit[i].facebook;
-                        parkItem.querySelector(".www_link").onclick = function() { 
-                                gtag('event', 'click', {
-                                        'event_category': 'fb',
-                                        'event_label': data.wakeparkit[i].id
-                                      });
-                            }
+                        parkItem.querySelector(".fb_link").id = data.wakeparkit[i].id;
+
                 } else {
                         parkItem.querySelector(".fb_link").remove();
                 }
                 if (data.wakeparkit[i].instagram != "") {
                         parkItem.querySelector(".ig_link").href = data.wakeparkit[i].instagram;
-                        parkItem.querySelector(".www_link").onclick = function() { 
-                                gtag('event', 'click', {
-                                        'event_category': 'ig',
-                                        'event_label': data.wakeparkit[i].id
-                                      });
-                            }
+                        parkItem.querySelector(".ig_link").id = data.wakeparkit[i].id;
+
                 } else {
                         parkItem.querySelector(".ig_link").remove();
                 }
@@ -78,3 +61,10 @@ fetch('data/data.json')
         }
 });
 
+function sendEvent(event_category, event_label) {
+        console.log( event_category, event_label);
+        gtag('event', 'click', {
+                'event_category': event_category,
+                'event_label': event_label
+              });
+}
