@@ -18,7 +18,7 @@ fetch('data/data.json')
                         + ","
                         + data.wakeparkit[i].towers[j].lon; 
                 }
-                
+
                 parkItem = document.importNode(parkTemplate.content, true);
                 parkItem.querySelector(".park").id += data.wakeparkit[i].id;
                 parkItem.querySelector(".park_title").textContent += data.wakeparkit[i].name;
@@ -35,14 +35,12 @@ fetch('data/data.json')
                 + "&style=feature:road%7Celement:geometry%7Ccolor:0xffe1b2&style=feature:landscape.man_made%7Celement:geometry.fill%7Ccolor:0xf7e1cc&style=feature:landscape.natural%7Celement:geometry.fill%7Ccolor:0xffbdcb&style=feature:landscape.natural.landcover%7Celement:geometry.fill%7Ccolor:0x00bdbf&style=feature:landscape.natural.terrain%7Celement:geometry.fill%7Ccolor:0x98ceb4&style=feature:water%7Celement:geometry.fill%7Ccolor:0x00bec8&style=element:labels%7Ccolor:0xffffff&style=element:labels.text.stroke%7Cvisibility:off&style=element:labels.icon%7Cvisibility:off&key=AIzaSyAtUNkgUu1-VfzdrS5GN_XMggHw3SFYjEk";
                 parkItem.querySelector(".map").href = "https://www.google.fi/maps?q=" + data.wakeparkit[i].lat + "," + data.wakeparkit[i].lon + "\""; 
                 parkItem.querySelector(".map").onclick = function() { 
-                        alert();
                         ga('send', 'event', 'map', 'click', data.wakeparkit[i].id);
                     }
 
                 if (data.wakeparkit[i].url != "") {
                         parkItem.querySelector(".www_link").href = data.wakeparkit[i].url;
                         parkItem.querySelector(".www_link").onclick = function() { 
-                                alert();
                                 ga('send', 'event', 'www', 'click', data.wakeparkit[i].id);
                             }
                 } else {
@@ -51,7 +49,6 @@ fetch('data/data.json')
                 if (data.wakeparkit[i].facebook != "") {
                         parkItem.querySelector(".fb_link").href = data.wakeparkit[i].facebook;
                         parkItem.querySelector(".www_link").onclick = function() { 
-                                alert();
                                 ga('send', 'event', 'fb', 'click', data.wakeparkit[i].id);
                             }
                 } else {
@@ -60,7 +57,6 @@ fetch('data/data.json')
                 if (data.wakeparkit[i].instagram != "") {
                         parkItem.querySelector(".ig_link").href = data.wakeparkit[i].instagram;
                         parkItem.querySelector(".www_link").onclick = function() { 
-                                alert();
                                 ga('send', 'event', 'ig', 'click', data.wakeparkit[i].id);
                             }
                 } else {
