@@ -14,8 +14,8 @@ body {
       min-width: 97%;
       font-size: 24px; }
       body img {
-        width: 120px;
-        height: 120px; }
+        width: 160px;
+        height: 160px; }
       body a {
         font-size: 18px; }
       body a.email {
@@ -33,6 +33,12 @@ body {
       body .park_location {
         font-size: 12px;
         padding-bottom: 1px; }
+      body .park_weather {
+        font-size: 12px;
+      }
+      body .park_temperature {
+        font-size: 12px;
+      }
       body .park_desc {
         font-size: 12px;
         padding-bottom: 12px; }
