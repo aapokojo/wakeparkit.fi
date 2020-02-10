@@ -57,21 +57,7 @@ fetch('data/data.json')
                 } else {
                         parkItem.querySelector(".ig_link").remove();
                 }
-
-                fetch('https://api.openweathermap.org/data/2.5/forecast'
-                + '?lat=' + data.wakeparkit[i].lat
-                + '&lon=' + data.wakeparkit[i].lon
-                + '&units=metric'
-                + '&appid=09df1a8594f61537951eb23228d2aa0b')
-                .then(function(response) {
-                        return response.json();
-                        })
-                        .then(function(weather) {
-                                parkItem.querySelector(".weather_temperature").textContent += "29384";
-                        });
                 container.append(parkItem);
-
-
         }
 });
 

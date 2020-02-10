@@ -7,6 +7,8 @@
         ],
     "builds": [
         { "src": "index.html", "use": "@now/static" },
+        { "src": "manifest.json", "use": "@now/static" },
+        { "src": "favicon.ico", "use": "@now/static" },
         { "src": "css/*.css", "use": "@now/static" },
         { "src": "fonts/*.*", "use": "@now/static" },
         { "src": "scripts/*.js", "use": "@now/static" },
