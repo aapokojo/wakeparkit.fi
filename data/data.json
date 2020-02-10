@@ -1,6 +1,5 @@
 { "wakeparkit": [
 		{
-			"key": "W",
 			"id": "wakespot",
 			"name": "Wakespot",
 			"location": "Helsinki",
@@ -24,7 +23,6 @@
 			]
 		},
 		{
-			"key": "L",
 			"id": "laguuni",
 			"name": "Laguuni",
 			"location": "Espoo",
@@ -58,7 +56,29 @@
 			]
 		},
 		{
-			"key": "R",
+			"id": "midnightsun",
+			"name": "Midnight Sun Wake",
+			"location": "Rovaniemi",
+			"desc": "Two-tower",
+			"lat": "66.5197195",
+			"lon": "25.7430646",
+			"url": "https://www.midnightsunwake.fi/",
+			"facebook": "https://www.facebook.com/MidnightSunWake/",
+			"instagram": "https://www.instagram.com/midnightsunwake/",
+			"towers": [
+				{
+					"tower": "https://wakeparkit.fi/media/OneTower.png",
+					"lat": "66.5197195",
+					"lon": "25.7430646"
+				},
+				{
+					"tower": "https://wakeparkit.fi/media/OneTower.png",
+					"lat": "66.5199195",
+					"lon": "25.7415946"
+				}
+			]
+		},
+		{
 			"id": "ridenjoy",
 			"name": "Ridenjoy",
 			"location": "Helsinki",
@@ -82,7 +102,6 @@
 			]
 		},
 		{
-			"key": "W",
 			"id": "wakevalley",
 			"name": "Wake Valley",
 			"location": "Ylöjärvi",
@@ -126,7 +145,6 @@
 			]
 		},
 		{
-			"key": "W",
 			"id": "wakevalley_tre",
 			"name": "Wake Valley",
 			"location": "Tampere",
@@ -150,7 +168,6 @@
 			]
 		},
 		{
-			"key": "V",
 			"id": "vesiurheilukeskus",
 			"name": "Vesiurheilukeskus",
 			"location": "Vuokatti",
@@ -174,7 +191,6 @@
 			]
 		},
 		{
-			"key": "J",
 			"id": "wake4break",
 			"name": "Wake4Break",
 			"location": "Joensuu",
@@ -198,7 +214,6 @@
 			]
 		},
 		{
-			"key": "U",
 			"id": "ukkohalla",
 			"name": "Ukkohalla",
 			"location": "Hyrynsalmi",
@@ -232,7 +247,6 @@
 			]
 		},
 		{
-			"key": "O",
 			"id": "ouluwakepark",
 			"name": "Oulu Wakepark",
 			"location": "Oulu",
@@ -256,7 +270,6 @@
 			]
 		},
 		{
-			"key": "J",
 			"id": "gr8wake",
 			"name": "Gr8Wake",
 			"location": "Jyväskylä",
@@ -280,7 +293,6 @@
 			]
 		},
 		{
-			"key": "S",
 			"id": "southbeachwake",
 			"name": "South Beach Wake",
 			"location": "Hämeenlinna",
@@ -304,7 +316,6 @@
 			]
 		},
 		{
-			"key": "P",
 			"id": "poroholma",
 			"name": "Poroholma",
 			"location": "Rauma",
@@ -328,7 +339,6 @@
 			]
 		},
 		{
-			"key": "E",
 			"id": "epopwake",
 			"name": "EPOP Wake",
 			"location": "Seinäjoki",
