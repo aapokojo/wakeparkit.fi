@@ -73,6 +73,7 @@ function render() {
                 parkItem.querySelector(".park_temperature").id = wakeparkit[i].id;
 
                 container.append(parkItem);
+                showWeather(wakeparkit[i].id);
         }
 }
 
