@@ -41,7 +41,7 @@ function render() {
                 + wakeparkit[i].lat
                 + ","
                 + wakeparkit[i].lon
-                + "&zoom=15&size=300x300&maptype=roadmap&markers=icon:https://wakeparkit.fi/media/OneTower.png%7C60.1715187,24.9013484" 
+                + "&zoom=15&size=300x400&maptype=roadmap&markers=icon:https://wakeparkit.fi/media/OneTower.png%7C60.1715187,24.9013484" 
                 + markers
                 + "&style=feature:road%7Celement:geometry%7Ccolor:0xffe1b2&style=feature:landscape.man_made%7Celement:geometry.fill%7Ccolor:0xf7e1cc&style=feature:landscape.natural%7Celement:geometry.fill%7Ccolor:0xffbdcb&style=feature:landscape.natural.landcover%7Celement:geometry.fill%7Ccolor:0x00bdbf&style=feature:landscape.natural.terrain%7Celement:geometry.fill%7Ccolor:0x98ceb4&style=feature:water%7Celement:geometry.fill%7Ccolor:0x00bec8&style=element:labels%7Ccolor:0xffffff&style=element:labels.text.stroke%7Cvisibility:off&style=element:labels.icon%7Cvisibility:off&key=AIzaSyAtUNkgUu1-VfzdrS5GN_XMggHw3SFYjEk";
                 
@@ -71,6 +71,7 @@ function render() {
 
                 parkItem.querySelector(".park_weather").id = wakeparkit[i].id;
                 parkItem.querySelector(".park_temperature").id = wakeparkit[i].id;
+                parkItem.querySelector(".park_weather_icon").id = wakeparkit[i].id;
 
                 container.append(parkItem);
                 showWeather(wakeparkit[i].id, wakeparkit[i].lat, wakeparkit[i].lon);
@@ -96,5 +97,6 @@ function showWeather(id, lat, lon) {
         })
         .then(function(weather) {
                 document.getElementById(id).getElementsByClassName("park_temperature")[0].innerHTML = weather.list[0].main.temp.toFixed(0) + "°C";
+                document.getElementById(id).getElementsByClassName("park_weather_icon")[0].src = "https://openweathermap.org/img/wn/" + weather.list[0].weather[0].icon + "@2x.png";
         });
 }

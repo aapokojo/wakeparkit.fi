@@ -15,7 +15,12 @@ body {
       font-size: 24px; }
       body img {
         width: 160px;
-        height: 160px; }
+        height: 213px; }
+      body .park_weather_icon {
+          width: 50px;
+          height: 50px;
+          filter: drop-shadow(4px 4px 10px #fec2d1);
+        }
       body a {
         font-size: 18px; }
       body a.email {
@@ -59,8 +64,15 @@ a {
 
 img {
   width: 300px;
-  height: 300px;
-  display: block; }
+  height: 400px;
+  display: block;
+}
+
+.park_weather_icon {
+  width: 100px;
+  height: 100px;
+  filter: drop-shadow(4px 4px 10px #fec2d1);
+}
 
 a.map {
   padding: 0px; }
