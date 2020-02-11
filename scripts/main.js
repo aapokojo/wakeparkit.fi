@@ -73,7 +73,7 @@ function render() {
                 parkItem.querySelector(".park_temperature").id = wakeparkit[i].id;
 
                 container.append(parkItem);
-                showWeather(wakeparkit[i].id);
+                showWeather(wakeparkit[i].id, wakeparkit[i].lat, wakeparkit[i].lon);
         }
 }
 
@@ -84,11 +84,11 @@ function sendEvent(event_category, event_label) {
               });
 }
 
-function showWeather(id) {
+function showWeather(id, lat, lon) {
 
         fetch('https://api.openweathermap.org/data/2.5/forecast'
-        + '?lat=' + wakeparkit.find(x => x.id === id).lat
-        + '&lon=' + wakeparkit.find(x => x.id === id).lon
+        + '?lat=' + lat
+        + '&lon=' + lon
         + '&units=metric'
         + '&appid=09df1a8594f61537951eb23228d2aa0b')
         .then(function(response) {
