@@ -182,7 +182,7 @@ img {
 .park_desc {
   font-weight: lighter;
   padding-top: 5px;
-  padding-bottom: 10px; 
+  padding-bottom: 24px; 
 }
 @media screen and (max-width: 480px) {
   .park_desc {

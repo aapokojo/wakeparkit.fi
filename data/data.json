@@ -316,14 +316,14 @@
 			]
 		},
 		{
-			"id": "poroholma",
-			"name": "Poroholma",
+			"id": "funpark",
+			"name": "Fun Park",
 			"location": "Rauma",
 			"desc": "Two-tower",
 			"lat": "61.135264",
 			"lon": "21.4740347",
-			"url": "http://www.poroholma.fi/wakepark",
-			"facebook": "https://www.facebook.com/Poroholma/",
+			"url": "http://www.poroholma.fi/funpark",
+			"facebook": "https://www.facebook.com/FunParkRauma/",
 			"instagram": "",
 			"towers": [
 				{
