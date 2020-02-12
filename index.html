@@ -30,6 +30,7 @@
   <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="fonts/fonts.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-105595822-1"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
@@ -46,7 +47,11 @@
 <main id="container">
     <template id="parkTemplate">
       <div class="park">
-        <a target="_blank" class="map" onclick="sendEvent('map', this.id)"><img class="park_map" /></a>
+        <a target="_blank" class="map" onclick="sendEvent('map', this.id)">
+          <img class="park_map" />
+          <i class="material-icons park_weather_wind_icon"></i>
+          <div class="park_weather_wind_speed"></div>
+        </a>
         <div class="info">
           <div class="park_title"></div>
           <div class="park_location"></div>

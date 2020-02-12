@@ -72,6 +72,8 @@ function render() {
                 parkItem.querySelector(".park_weather").id = wakeparkit[i].id;
                 parkItem.querySelector(".park_temperature").id = wakeparkit[i].id;
                 parkItem.querySelector(".park_weather_icon").id = wakeparkit[i].id;
+                parkItem.querySelector(".park_weather_wind_icon").id = wakeparkit[i].id;
+                parkItem.querySelector(".park_weather_wind_speed").id = wakeparkit[i].id;
 
                 container.append(parkItem);
                 showWeather(wakeparkit[i].id, wakeparkit[i].lat, wakeparkit[i].lon);
@@ -98,5 +100,8 @@ function showWeather(id, lat, lon) {
         .then(function(weather) {
                 document.getElementById(id).getElementsByClassName("park_temperature")[0].innerHTML = weather.list[0].main.temp.toFixed(0) + "°C";
                 document.getElementById(id).getElementsByClassName("park_weather_icon")[0].src = "https://openweathermap.org/img/wn/" + weather.list[0].weather[0].icon + "@2x.png";
+                document.getElementById(id).getElementsByClassName("park_weather_wind_icon")[0].textContent = "navigation";
+                document.getElementById(id).getElementsByClassName("park_weather_wind_icon")[0].style = "transform: rotate(" + (weather.list[0].wind.deg - 180) + "deg)";
+                document.getElementById(id).getElementsByClassName("park_weather_wind_speed")[0].textContent += weather.list[0].wind.speed.toFixed(0) + " m/s";
         });
-}
+}       
