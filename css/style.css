@@ -118,15 +118,35 @@ article {
 
 .wakepark_player {
   box-shadow: 10px 10px #000;
-  text-shadow: 4px 4px #fff;
   background: #ffe261;
   margin: 15px;
   height: 400px;
+  display: block;
+  position: relative;
 }
 @media screen and (max-width: 480px) {
   .wakepark_player {
     height: 200px;
   }
+}
+.player_controls {
+  font-family: "malzoo";
+  font-weight: bold;
+  font-size: 48px;
+  text-shadow: 4px 4px #fff;
+  position: absolute;
+  top: 160px;
+}
+@media screen and (max-width: 480px) {
+  .player_controls {
+    top: 70px;
+  }
+}
+#previous {
+  left: -16px;
+}
+#next {
+  right: -16px;
 }
 
 /* Wakepark cards */
