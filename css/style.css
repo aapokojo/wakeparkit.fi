@@ -192,10 +192,11 @@ img {
 }
 
 .park_weather {
-  margin-top: 16px;
+  margin-top: 24px;
 }
 @media screen and (max-width: 480px) {
   .park_weather {
+    margin-top: 16px;
     font-size: 12px;
   }
 }
@@ -239,11 +240,14 @@ img {
   }
 }
 .park_temperature {
-  font-size: 48px;
-  margin-top: 8px;
+  font-size: 24px;
+  margin-left: 32px;
+  margin-top: -16px;
 }
 @media screen and (max-width: 480px) {
   .park_temperature {
+    margin-left: 16px;
+    margin-top: -8px;
     font-size: 12px;
   }
 }
