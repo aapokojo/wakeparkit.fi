@@ -15,7 +15,7 @@ function onYouTubePlayerAPIReady() {
       autoplay: 1,
       mute: 1,
       loop: 1,
-      controls: 0,
+      controls: 1,
       modestbranding: 1
     },
     events: {
