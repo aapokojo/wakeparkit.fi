@@ -8,6 +8,7 @@ body {
   max-width: 800px;
   margin: auto;
   padding: 5px; }
+
   @media screen and (max-width: 480px) {
     body {
       max-width: 97%;
@@ -38,6 +39,10 @@ body {
       body header {
         background-size: 145px;
         margin: 10px; }
+      body article {
+        font-size: 16px;
+        padding: 12px;
+      }
       body #gear {
         font-size: 24px; }
       body .park {
@@ -76,7 +81,16 @@ img {
   height: 400px;
   display: block;
 }
-
+article {
+  font-family: 'Inconsolata', monospace;
+  background: #fff;
+  font-size: 18px;
+  box-shadow: 10px 10px #000;
+  text-shadow: 4px 4px #fff8;
+  line-height: 1.2;
+  margin: 15px;
+  padding: 16px;
+}
 .park_weather_icon {
   width: 100px;
   height: 100px;
