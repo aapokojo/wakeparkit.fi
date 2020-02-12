@@ -17,7 +17,11 @@ function onYouTubePlayerAPIReady() {
       loop: 1,
       controls: 0,
       modestbranding: 1
-    }
+    },
+    events: {
+        onReady: function(e) {
+          e.target.mute();
+        }
+      }
   });
 }
-
