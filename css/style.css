@@ -1,3 +1,5 @@
+/* Main elements */
+
 body {
   background: #02d0db;
   color: #000;
@@ -7,62 +9,42 @@ body {
   overflow: scroll;
   max-width: 800px;
   margin: auto;
-  padding: 5px; }
+  padding: 5px;
+} 
 
-  @media screen and (max-width: 480px) {
-    body {
-      max-width: 97%;
-      min-width: 97%;
-      font-size: 24px; }
-      body img {
-        width: 150px;
-        height: 200px; }
-      body .park_weather_icon {
-          width: 50px;
-          height: 50px;
-          filter: drop-shadow(4px 4px 10px #fec2d1);
-        }
-      body .park_weather_wind_icon {
-          top: 140px;
-          left: 20px;
-        }
-      body .park_weather_wind_speed {
-          top: 168px;
-          left: 10px;
-          font-size: 14px;
-        }
-      body a {
-        font-size: 18px; }
-      body a.email {
-        font-size: 12px;
-        max-width: 160px; }
-      body header {
-        background-size: 145px;
-        margin: 10px; }
-      body article {
-        font-size: 16px;
-        padding: 12px;
-      }
-      body #gear {
-        font-size: 24px; }
-      body .park {
-        text-shadow: 2px 2px #fff; }
-      body .park_title {
-        margin-bottom: -10px; }
-      body .park_location {
-        font-size: 12px;
-        padding-bottom: 1px; }
-      body .park_weather {
-        font-size: 12px;
-      }
-      body .park_temperature {
-        font-size: 12px;
-      }
-      body .park_desc {
-        font-size: 12px;
-        padding-bottom: 12px; }
-      body .info {
-        margin-left: 0px; } }
+@media screen and (max-width: 480px) {
+  body {
+    max-width: 97%;
+    min-width: 97%;
+    font-size: 24px; 
+  }
+}
+
+header {
+  background-image: url("/media/background.svg");
+  background-repeat: repeat-x;
+  background-size: 300px;
+  text-shadow: 4px 4px #ffe261;
+  text-align: center;
+  padding: 5px;
+  margin: 5px; 
+}
+@media screen and (max-width: 480px) {
+  header {
+    background-size: 145px;
+    margin: 10px; 
+  }
+}
+
+main {
+  display: flex;
+  flex-direction: column; 
+}
+
+footer {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
 
 a {
   background: #fec2d1;
@@ -74,40 +56,14 @@ a {
   font-size: 32px;
   padding: 10px 10px 5px 10px;
   margin-right: 10px;
-  opacity: 0.8; }
+  opacity: 0.8;
+}
+@media screen and (max-width: 480px) {
+  a {
+    font-size: 18px; 
+  }
+}
 
-img {
-  width: 300px;
-  height: 400px;
-  display: block;
-}
-article {
-  font-family: 'Inconsolata', monospace;
-  background: #fff;
-  font-size: 18px;
-  box-shadow: 10px 10px #000;
-  text-shadow: 4px 4px #fff8;
-  line-height: 1.2;
-  margin: 15px;
-  padding: 16px;
-}
-.park_weather_icon {
-  width: 100px;
-  height: 100px;
-  filter: drop-shadow(4px 4px 10px #fec2d1);
-}
-.park_weather_wind_icon {
-  position: absolute;
-  top: 300px;
-  left: 30px;
-}
-.park_weather_wind_speed {
-  position: absolute;
-  top: 330px;
-  left: 20px;
-  font-family: 'Inconsolata', monospace;
-  font-size: 18px;
-}
 a.map {
   padding: 0px;
   position: relative; 
@@ -123,24 +79,168 @@ a.email {
   max-width: 200px;
   margin: auto;
   display: block;
-  text-align: center; }
+  text-align: center; 
+}
+@media screen and (max-width: 480px) {
+  a.email {
+    font-size: 12px;
+    max-width: 160px;
+  }
+} 
 
-header {
-  background-image: url("/media/background.svg");
-  background-repeat: repeat-x;
-  background-size: 300px;
-  text-shadow: 4px 4px #ffe261;
-  text-align: center;
-  padding: 5px;
-  margin: 5px; }
+article {
+  font-family: 'Inconsolata', monospace;
+  background: #fff;
+  font-size: 18px;
+  box-shadow: 10px 10px #000;
+  text-shadow: 4px 4px #fff8;
+  line-height: 1.2;
+  margin: 15px;
+  padding: 16px;
+}
+@media screen and (max-width: 480px) {
+  article {
+    font-size: 16px;
+    padding: 12px;
+  }
+}
 
-main {
+/* Wakepark cards */
+
+img {
+  width: 300px;
+  height: 400px;
+  display: block;
+}
+@media screen and (max-width: 480px) {
+  img {
+    width: 150px;
+    height: 200px; 
+  }
+}
+
+.info {
+  margin-left: 10px; 
+}
+@media screen and (max-width: 480px) {
+  .info {
+    margin-left: 0px;
+  } 
+}
+
+.park {
+  box-shadow: 10px 10px #000;
+  text-shadow: 4px 4px #fff;
+  background: #ffe261;
   display: flex;
-  flex-direction: column; }
+  flex-direction: row;
+  margin: 15px; 
+}
+@media screen and (max-width: 480px) {
+  .park {
+    text-shadow: 2px 2px #fff;
+  }
+}
 
-footer {
-  margin-top: 10px;
-  margin-bottom: 10px; }
+.park_title {
+  padding-top: 4px;
+  margin-bottom: -20px; 
+}
+@media screen and (max-width: 480px) {
+  .park_title {
+    margin-bottom: -10px; 
+  }
+}
+
+.park_desc {
+  font-family: 'Inconsolata', monospace;
+  font-size: 18px;
+  font-weight: lighter;
+  padding-top: 5px;
+  padding-bottom: 10px; 
+}
+@media screen and (max-width: 480px) {
+  .park_desc {
+    font-size: 12px;
+    padding-bottom: 12px;
+  }
+}
+
+.park_weather {
+  font-family: 'Inconsolata', monospace;
+  font-size: 18px;
+  margin-top: 16px;
+}
+@media screen and (max-width: 480px) {
+  .park_weather {
+    font-size: 12px;
+  }
+}
+
+.park_weather_icon {
+  width: 100px;
+  height: 100px;
+  filter: drop-shadow(4px 4px 10px #fec2d1);
+}
+@media screen and (max-width: 480px) {
+  .park_weather_icon {
+    width: 50px;
+    height: 50px;
+    filter: drop-shadow(4px 4px 10px #fec2d1);
+  }
+}
+
+.park_weather_wind_icon {
+  position: absolute;
+  top: 300px;
+  left: 30px;
+}
+@media screen and (max-width: 480px) {
+  .park_weather_wind_icon {
+    top: 140px;
+    left: 20px;
+  }
+}
+
+.park_weather_wind_speed {
+  position: absolute;
+  top: 330px;
+  left: 20px;
+  font-family: 'Inconsolata', monospace;
+  font-size: 18px;
+} @media screen and (max-width: 480px) {
+  .park_weather_wind_speed {
+    top: 168px;
+    left: 10px;
+    font-size: 14px;
+  }
+}
+.park_temperature {
+  font-family: 'Inconsolata', monospace;
+  font-size: 48px;
+  margin-top: 8px;
+}
+@media screen and (max-width: 480px) {
+  .park_temperature {
+    font-size: 12px;
+  }
+}
+
+.park_location {
+  font-family: 'Inconsolata', monospace;
+  font-size: 18px;
+  font-weight: lighter;
+  padding-bottom: 10px;
+  opacity: 0.5; 
+}
+@media screen and (max-width: 480px) {
+  .park_location {
+    font-size: 12px;
+    padding-bottom: 1px;
+  }
+}
+
+/* Shop */
 
 #gear {
   font-family: 'Inconsolata', monospace;
@@ -149,13 +249,20 @@ footer {
   margin: 15px;
   padding-top: 20px;
   background: none;
-  text-shadow: 4px 4px #ffe261; }
+  text-shadow: 4px 4px #ffe261; 
+}
+@media screen and (max-width: 480px) {
+  #gear {
+    font-size: 24px; 
+  }
+}
 
 #products {
   width: auto;
   display: flex;
   overflow-y: hidden;
-  overflow-x: scroll; }
+  overflow-x: scroll; 
+}
 
 #promo {
   text-shadow: 4px 4px #fff;
@@ -165,54 +272,16 @@ footer {
   font-weight: lighter;
   margin-left: 15px;
   margin-right: 15px;
-  padding-right: 15px; }
+  padding-right: 15px; 
+}
 
 #buy {
   background: none;
-  text-decoration: none; }
+  text-decoration: none; 
+}
 
 #product {
   box-shadow: 10px 10px #000;
   text-shadow: 4px 4px #fff;
-  width: auto; }
-
-.park {
-  box-shadow: 10px 10px #000;
-  text-shadow: 4px 4px #fff;
-  background: #ffe261;
-  display: flex;
-  flex-direction: row;
-  margin: 15px; }
-
-.park_title {
-  padding-top: 4px;
-  margin-bottom: -20px; }
-
-.park_weather {
-  font-family: 'Inconsolata', monospace;
-  font-size: 18px;
-  margin-top: 16px;
+  width: auto; 
 }
-
-.park_temperature {
-  font-family: 'Inconsolata', monospace;
-  font-size: 48px;
-  margin-top: 8px;
-}
-
-.park_location {
-  font-family: 'Inconsolata', monospace;
-  font-size: 18px;
-  font-weight: lighter;
-  padding-bottom: 10px;
-  opacity: 0.5; }
-
-.park_desc {
-  font-family: 'Inconsolata', monospace;
-  font-size: 18px;
-  font-weight: lighter;
-  padding-top: 5px;
-  padding-bottom: 10px; }
-
-.info {
-  margin-left: 10px; }
