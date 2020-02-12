@@ -114,6 +114,21 @@ article {
   }
 }
 
+/* Embedded YT Player */
+
+.wakepark_player {
+  box-shadow: 10px 10px #000;
+  text-shadow: 4px 4px #fff;
+  background: #ffe261;
+  margin: 15px;
+  height: 400px;
+}
+@media screen and (max-width: 480px) {
+  .wakepark_player {
+    height: 200px;
+  }
+}
+
 /* Wakepark cards */
 
 img {
