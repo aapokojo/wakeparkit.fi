@@ -18,8 +18,11 @@ function render() {
         var container = document.getElementById("container");
         var parkTemplate = document.getElementById("parkTemplate");
         var parkItem;
+        var parkStaticElements = document.getElementsByClassName("park");
     
         for (i = 0; i < wakeparkit.length; i++) {
+
+                parkStaticElements.getElementById(wakeparkit[i].id).remove();
 
                 var markers = "";
                 for (j = 0; j < wakeparkit[i].towers.length; j++) {

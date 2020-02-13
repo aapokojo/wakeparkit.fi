@@ -51,27 +51,293 @@
     <div class="player_controls" id="next" onclick="player.nextVideo()">></div>
 </div>
 <main id="container">
-    <template id="parkTemplate">
-      <div class="park">
-        <a target="_blank" class="map" onclick="sendEvent('map', this.id)">
-          <img class="park_map" />
-          <i class="material-icons park_weather_wind_icon"></i>
-          <div class="park_weather_wind_speed"></div>
-        </a>
-        <div class="info">
-          <div class="park_title"></div>
-          <div class="park_location"></div>
-          <div class="park_desc"></div>
-          <a class="www_link" onclick="sendEvent('www', this.id)">www</a>
-          <a class="fb_link" onclick="sendEvent('fb', this.id)">FB</a>
-          <a class="ig_link" onclick="sendEvent('ig', this.id)">ig</a>
-          <div class="park_weather">Weather now</div>
-          <img class="park_weather_icon">
-          <div class="park_temperature"></div>
-        </div>
+
+    <div class="park" id="wakespot">
+      <a target="_blank" class="map" onclick="sendEvent('map', this.id)" href="https://www.google.fi/maps?q=60.1715187,24.9030484" id="wakespot">
+        <img class="park_map" src="https://maps.googleapis.com/maps/api/staticmap?center=60.1715187,24.9030484&amp;zoom=15&amp;size=300x400&amp;maptype=roadmap&amp;markers=icon:https://wakeparkit.fi/media/OneTower.png%7C60.1715187,24.9013484&amp;markers=icon:https://wakeparkit.fi/media/OneTower.png%7C60.1715187,24.9013484&amp;markers=icon:https://wakeparkit.fi/media/OneTower.png%7C60.1713187,24.9043484&amp;style=feature:road%7Celement:geometry%7Ccolor:0xffe1b2&amp;style=feature:landscape.man_made%7Celement:geometry.fill%7Ccolor:0xf7e1cc&amp;style=feature:landscape.natural%7Celement:geometry.fill%7Ccolor:0xffbdcb&amp;style=feature:landscape.natural.landcover%7Celement:geometry.fill%7Ccolor:0x00bdbf&amp;style=feature:landscape.natural.terrain%7Celement:geometry.fill%7Ccolor:0x98ceb4&amp;style=feature:water%7Celement:geometry.fill%7Ccolor:0x00bec8&amp;style=element:labels%7Ccolor:0xffffff&amp;style=element:labels.text.stroke%7Cvisibility:off&amp;style=element:labels.icon%7Cvisibility:off&amp;key=AIzaSyAtUNkgUu1-VfzdrS5GN_XMggHw3SFYjEk">
+        <i class="material-icons park_weather_wind_icon" id="wakespot" style="transform: rotate(98deg);">navigation</i>
+        <div class="park_weather_wind_speed" id="wakespot">6 m/s</div>
+      </a>
+      <div class="info">
+        <div class="park_title">Wakespot</div>
+        <div class="park_location">Helsinki</div>
+        <div class="park_desc">Two-tower</div>
+        <a class="www_link" onclick="sendEvent('www', this.id)" href="http://www.wakespot.fi/" id="wakespot">www</a>
+        <a class="fb_link" onclick="sendEvent('fb', this.id)" href="https://www.facebook.com/WakespotHelsinki" id="wakespot">FB</a>
+        <a class="ig_link" onclick="sendEvent('ig', this.id)" href="https://www.instagram.com/wakespothelsinki/" id="wakespot">ig</a>
+        <div class="park_weather" id="wakespot">Weather now</div>
+        <img class="park_weather_icon" id="wakespot" src="https://openweathermap.org/img/wn/03n@2x.png">
+        <div class="park_temperature" id="wakespot">0°C</div>
       </div>
-    </template>
+    </div>
+
+    <div class="park" id="laguuni">
+      <a target="_blank" class="map" onclick="sendEvent('map', this.id)" href="https://www.google.fi/maps?q=60.1703557,24.8316795" id="laguuni">
+        <img class="park_map" src="https://maps.googleapis.com/maps/api/staticmap?center=60.1703557,24.8316795&amp;zoom=15&amp;size=300x400&amp;maptype=roadmap&amp;markers=icon:https://wakeparkit.fi/media/OneTower.png%7C60.1715187,24.9013484&amp;markers=icon:https://wakeparkit.fi/media/OneTower.png%7C60.1690057,24.8318795&amp;markers=icon:https://wakeparkit.fi/media/OneTower.png%7C60.1700057,24.8311795&amp;markers=icon:https://wakeparkit.fi/media/OneTower.png%7C60.1691057,24.8328005&amp;markers=icon:https://wakeparkit.fi/media/OneTower.png%7C60.1701057,24.8326795&amp;style=feature:road%7Celement:geometry%7Ccolor:0xffe1b2&amp;style=feature:landscape.man_made%7Celement:geometry.fill%7Ccolor:0xf7e1cc&amp;style=feature:landscape.natural%7Celement:geometry.fill%7Ccolor:0xffbdcb&amp;style=feature:landscape.natural.landcover%7Celement:geometry.fill%7Ccolor:0x00bdbf&amp;style=feature:landscape.natural.terrain%7Celement:geometry.fill%7Ccolor:0x98ceb4&amp;style=feature:water%7Celement:geometry.fill%7Ccolor:0x00bec8&amp;style=element:labels%7Ccolor:0xffffff&amp;style=element:labels.text.stroke%7Cvisibility:off&amp;style=element:labels.icon%7Cvisibility:off&amp;key=AIzaSyAtUNkgUu1-VfzdrS5GN_XMggHw3SFYjEk">
+        <i class="material-icons park_weather_wind_icon" id="laguuni" style="transform: rotate(98deg);">navigation</i>
+        <div class="park_weather_wind_speed" id="laguuni">6 m/s</div>
+      </a>
+      <div class="info">
+        <div class="park_title">Laguuni</div>
+        <div class="park_location">Espoo</div>
+        <div class="park_desc">2 x Two-tower</div>
+        <a class="www_link" onclick="sendEvent('www', this.id)" href="http://laguuniin.fi/" id="laguuni">www</a>
+        <a class="fb_link" onclick="sendEvent('fb', this.id)" href="https://www.facebook.com/laguuniin" id="laguuni">FB</a>
+        <a class="ig_link" onclick="sendEvent('ig', this.id)" href="https://www.instagram.com/laguuniin/" id="laguuni">ig</a>
+        <div class="park_weather" id="laguuni">Weather now</div>
+        <img class="park_weather_icon" id="laguuni" src="https://openweathermap.org/img/wn/03n@2x.png">
+        <div class="park_temperature" id="laguuni">0°C</div>
+      </div>
+    </div>
+
+    <div class="park" id="midnightsun">
+      <a target="_blank" class="map" onclick="sendEvent('map', this.id)" href="https://www.google.fi/maps?q=66.5197195,25.7430646" id="midnightsun">
+        <img class="park_map" src="https://maps.googleapis.com/maps/api/staticmap?center=66.5197195,25.7430646&amp;zoom=15&amp;size=300x400&amp;maptype=roadmap&amp;markers=icon:https://wakeparkit.fi/media/OneTower.png%7C60.1715187,24.9013484&amp;markers=icon:https://wakeparkit.fi/media/OneTower.png%7C66.5197195,25.7430646&amp;markers=icon:https://wakeparkit.fi/media/OneTower.png%7C66.5199195,25.7415946&amp;style=feature:road%7Celement:geometry%7Ccolor:0xffe1b2&amp;style=feature:landscape.man_made%7Celement:geometry.fill%7Ccolor:0xf7e1cc&amp;style=feature:landscape.natural%7Celement:geometry.fill%7Ccolor:0xffbdcb&amp;style=feature:landscape.natural.landcover%7Celement:geometry.fill%7Ccolor:0x00bdbf&amp;style=feature:landscape.natural.terrain%7Celement:geometry.fill%7Ccolor:0x98ceb4&amp;style=feature:water%7Celement:geometry.fill%7Ccolor:0x00bec8&amp;style=element:labels%7Ccolor:0xffffff&amp;style=element:labels.text.stroke%7Cvisibility:off&amp;style=element:labels.icon%7Cvisibility:off&amp;key=AIzaSyAtUNkgUu1-VfzdrS5GN_XMggHw3SFYjEk">
+        <i class="material-icons park_weather_wind_icon" id="midnightsun" style="transform: rotate(-132deg);">navigation</i>
+        <div class="park_weather_wind_speed" id="midnightsun">1 m/s</div>
+      </a>
+      <div class="info">
+        <div class="park_title">Midnight Sun Wake</div>
+        <div class="park_location">Rovaniemi</div>
+        <div class="park_desc">Two-tower</div>
+        <a class="www_link" onclick="sendEvent('www', this.id)" href="https://www.midnightsunwake.fi/" id="midnightsun">www</a>
+        <a class="fb_link" onclick="sendEvent('fb', this.id)" href="https://www.facebook.com/MidnightSunWake/" id="midnightsun">FB</a>
+        <a class="ig_link" onclick="sendEvent('ig', this.id)" href="https://www.instagram.com/midnightsunwake/" id="midnightsun">ig</a>
+        <div class="park_weather" id="midnightsun">Weather now</div>
+        <img class="park_weather_icon" id="midnightsun" src="https://openweathermap.org/img/wn/04n@2x.png">
+        <div class="park_temperature" id="midnightsun">-3°C</div>
+      </div>
+    </div>
+
+    <div class="park" id="ridenjoy">
+      <a target="_blank" class="map" onclick="sendEvent('map', this.id)" href="https://www.google.fi/maps?q=60.203401,24.8497014" id="ridenjoy">
+        <img class="park_map" src="https://maps.googleapis.com/maps/api/staticmap?center=60.203401,24.8497014&amp;zoom=15&amp;size=300x400&amp;maptype=roadmap&amp;markers=icon:https://wakeparkit.fi/media/OneTower.png%7C60.1715187,24.9013484&amp;markers=icon:https://wakeparkit.fi/media/OneTower.png%7C60.203201,24.8517014&amp;markers=icon:https://wakeparkit.fi/media/OneTower.png%7C60.203501,24.8493014&amp;style=feature:road%7Celement:geometry%7Ccolor:0xffe1b2&amp;style=feature:landscape.man_made%7Celement:geometry.fill%7Ccolor:0xf7e1cc&amp;style=feature:landscape.natural%7Celement:geometry.fill%7Ccolor:0xffbdcb&amp;style=feature:landscape.natural.landcover%7Celement:geometry.fill%7Ccolor:0x00bdbf&amp;style=feature:landscape.natural.terrain%7Celement:geometry.fill%7Ccolor:0x98ceb4&amp;style=feature:water%7Celement:geometry.fill%7Ccolor:0x00bec8&amp;style=element:labels%7Ccolor:0xffffff&amp;style=element:labels.text.stroke%7Cvisibility:off&amp;style=element:labels.icon%7Cvisibility:off&amp;key=AIzaSyAtUNkgUu1-VfzdrS5GN_XMggHw3SFYjEk">
+        <i class="material-icons park_weather_wind_icon" id="ridenjoy" style="transform: rotate(98deg);">navigation</i>
+        <div class="park_weather_wind_speed" id="ridenjoy">6 m/s</div>
+      </a>
+      <div class="info">
+        <div class="park_title">Ridenjoy</div>
+        <div class="park_location">Helsinki</div>
+        <div class="park_desc">Two-tower</div>
+        <a class="www_link" onclick="sendEvent('www', this.id)" href="https://ridenjoy.fi/" id="ridenjoy">www</a>
+        <a class="fb_link" onclick="sendEvent('fb', this.id)" href="https://www.facebook.com/ridenjoywakepark/" id="ridenjoy">FB</a>
+        
+        <div class="park_weather" id="ridenjoy">Weather now</div>
+        <img class="park_weather_icon" id="ridenjoy" src="https://openweathermap.org/img/wn/03n@2x.png">
+        <div class="park_temperature" id="ridenjoy">0°C</div>
+      </div>
+    </div>
+
+    <div class="park" id="wakevalley">
+      <a target="_blank" class="map" onclick="sendEvent('map', this.id)" href="https://www.google.fi/maps?q=61.63989,23.5825674" id="wakevalley">
+        <img class="park_map" src="https://maps.googleapis.com/maps/api/staticmap?center=61.63989,23.5825674&amp;zoom=15&amp;size=300x400&amp;maptype=roadmap&amp;markers=icon:https://wakeparkit.fi/media/OneTower.png%7C60.1715187,24.9013484&amp;markers=icon:https://wakeparkit.fi/media/OneTower.png%7C61.63989,23.5845674&amp;markers=icon:https://wakeparkit.fi/media/OneTower.png%7C61.63989,23.5815674&amp;markers=icon:https://wakeparkit.fi/media/OneTower.png%7C61.63959,23.5845674&amp;markers=icon:https://wakeparkit.fi/media/OneTower.png%7C61.63959,23.5815674&amp;markers=icon:https://wakeparkit.fi/media/OneTower.png%7C61.63929,23.5845674&amp;markers=icon:https://wakeparkit.fi/media/OneTower.png%7C61.63929,23.5815674&amp;style=feature:road%7Celement:geometry%7Ccolor:0xffe1b2&amp;style=feature:landscape.man_made%7Celement:geometry.fill%7Ccolor:0xf7e1cc&amp;style=feature:landscape.natural%7Celement:geometry.fill%7Ccolor:0xffbdcb&amp;style=feature:landscape.natural.landcover%7Celement:geometry.fill%7Ccolor:0x00bdbf&amp;style=feature:landscape.natural.terrain%7Celement:geometry.fill%7Ccolor:0x98ceb4&amp;style=feature:water%7Celement:geometry.fill%7Ccolor:0x00bec8&amp;style=element:labels%7Ccolor:0xffffff&amp;style=element:labels.text.stroke%7Cvisibility:off&amp;style=element:labels.icon%7Cvisibility:off&amp;key=AIzaSyAtUNkgUu1-VfzdrS5GN_XMggHw3SFYjEk">
+        <i class="material-icons park_weather_wind_icon" id="wakevalley" style="transform: rotate(59deg);">navigation</i>
+        <div class="park_weather_wind_speed" id="wakevalley">2 m/s</div>
+      </a>
+      <div class="info">
+        <div class="park_title">Wake Valley</div>
+        <div class="park_location">Ylöjärvi</div>
+        <div class="park_desc">3 x Two-tower</div>
+        <a class="www_link" onclick="sendEvent('www', this.id)" href="http://www.wakevalley.fi/" id="wakevalley">www</a>
+        <a class="fb_link" onclick="sendEvent('fb', this.id)" href="https://www.facebook.com/wakevalley" id="wakevalley">FB</a>
+        <a class="ig_link" onclick="sendEvent('ig', this.id)" href="https://www.instagram.com/wake_valley/" id="wakevalley">ig</a>
+        <div class="park_weather" id="wakevalley">Weather now</div>
+        <img class="park_weather_icon" id="wakevalley" src="https://openweathermap.org/img/wn/04n@2x.png">
+        <div class="park_temperature" id="wakevalley">-3°C</div>
+      </div>
+    </div>
+
+    <div class="park" id="wakevalley_tre">
+      <a target="_blank" class="map" onclick="sendEvent('map', this.id)" href="https://www.google.fi/maps?q=61.4907583,23.732685" id="wakevalley_tre">
+        <img class="park_map" src="https://maps.googleapis.com/maps/api/staticmap?center=61.4907583,23.732685&amp;zoom=15&amp;size=300x400&amp;maptype=roadmap&amp;markers=icon:https://wakeparkit.fi/media/OneTower.png%7C60.1715187,24.9013484&amp;markers=icon:https://wakeparkit.fi/media/OneTower.png%7C61.4904583,23.730887&amp;markers=icon:https://wakeparkit.fi/media/OneTower.png%7C61.4905583,23.735887&amp;style=feature:road%7Celement:geometry%7Ccolor:0xffe1b2&amp;style=feature:landscape.man_made%7Celement:geometry.fill%7Ccolor:0xf7e1cc&amp;style=feature:landscape.natural%7Celement:geometry.fill%7Ccolor:0xffbdcb&amp;style=feature:landscape.natural.landcover%7Celement:geometry.fill%7Ccolor:0x00bdbf&amp;style=feature:landscape.natural.terrain%7Celement:geometry.fill%7Ccolor:0x98ceb4&amp;style=feature:water%7Celement:geometry.fill%7Ccolor:0x00bec8&amp;style=element:labels%7Ccolor:0xffffff&amp;style=element:labels.text.stroke%7Cvisibility:off&amp;style=element:labels.icon%7Cvisibility:off&amp;key=AIzaSyAtUNkgUu1-VfzdrS5GN_XMggHw3SFYjEk">
+        <i class="material-icons park_weather_wind_icon" id="wakevalley_tre" style="transform: rotate(59deg);">navigation</i>
+        <div class="park_weather_wind_speed" id="wakevalley_tre">2 m/s</div>
+      </a>
+      <div class="info">
+        <div class="park_title">Wake Valley</div>
+        <div class="park_location">Tampere</div>
+        <div class="park_desc">Two-tower</div>
+        <a class="www_link" onclick="sendEvent('www', this.id)" href="http://www.wakevalley.fi/" id="wakevalley_tre">www</a>
+        <a class="fb_link" onclick="sendEvent('fb', this.id)" href="https://www.facebook.com/wakevalley" id="wakevalley_tre">FB</a>
+        <a class="ig_link" onclick="sendEvent('ig', this.id)" href="https://www.instagram.com/wake_valley/" id="wakevalley_tre">ig</a>
+        <div class="park_weather" id="wakevalley_tre">Weather now</div>
+        <img class="park_weather_icon" id="wakevalley_tre" src="https://openweathermap.org/img/wn/04n@2x.png">
+        <div class="park_temperature" id="wakevalley_tre">-3°C</div>
+      </div>
+    </div>
+
+    <div class="park" id="vesiurheilukeskus">
+      <a target="_blank" class="map" onclick="sendEvent('map', this.id)" href="https://www.google.fi/maps?q=64.1389285,28.2780896" id="vesiurheilukeskus">
+        <img class="park_map" src="https://maps.googleapis.com/maps/api/staticmap?center=64.1389285,28.2780896&amp;zoom=15&amp;size=300x400&amp;maptype=roadmap&amp;markers=icon:https://wakeparkit.fi/media/OneTower.png%7C60.1715187,24.9013484&amp;markers=icon:https://wakeparkit.fi/media/OneTower.png%7C64.1396285,28.2790896&amp;markers=icon:https://wakeparkit.fi/media/OneTower.png%7C64.1375285,28.2804896&amp;style=feature:road%7Celement:geometry%7Ccolor:0xffe1b2&amp;style=feature:landscape.man_made%7Celement:geometry.fill%7Ccolor:0xf7e1cc&amp;style=feature:landscape.natural%7Celement:geometry.fill%7Ccolor:0xffbdcb&amp;style=feature:landscape.natural.landcover%7Celement:geometry.fill%7Ccolor:0x00bdbf&amp;style=feature:landscape.natural.terrain%7Celement:geometry.fill%7Ccolor:0x98ceb4&amp;style=feature:water%7Celement:geometry.fill%7Ccolor:0x00bec8&amp;style=element:labels%7Ccolor:0xffffff&amp;style=element:labels.text.stroke%7Cvisibility:off&amp;style=element:labels.icon%7Cvisibility:off&amp;key=AIzaSyAtUNkgUu1-VfzdrS5GN_XMggHw3SFYjEk">
+        <i class="material-icons park_weather_wind_icon" id="vesiurheilukeskus" style="transform: rotate(-27deg);">navigation</i>
+        <div class="park_weather_wind_speed" id="vesiurheilukeskus">1 m/s</div>
+      </a>
+      <div class="info">
+        <div class="park_title">Vesiurheilukeskus</div>
+        <div class="park_location">Vuokatti</div>
+        <div class="park_desc">Two-tower</div>
+        <a class="www_link" onclick="sendEvent('www', this.id)" href="https://www.vesiurheilukeskus.fi/" id="vesiurheilukeskus">www</a>
+        <a class="fb_link" onclick="sendEvent('fb', this.id)" href="https://www.facebook.com/vesiurheilukeskus" id="vesiurheilukeskus">FB</a>
+        <a class="ig_link" onclick="sendEvent('ig', this.id)" href="https://www.instagram.com/vesiurheilukeskus/" id="vesiurheilukeskus">ig</a>
+        <div class="park_weather" id="vesiurheilukeskus">Weather now</div>
+        <img class="park_weather_icon" id="vesiurheilukeskus" src="https://openweathermap.org/img/wn/04n@2x.png">
+        <div class="park_temperature" id="vesiurheilukeskus">-0°C</div>
+      </div>
+    </div>
+
+    <div class="park" id="wake4break">
+      <a target="_blank" class="map" onclick="sendEvent('map', this.id)" href="https://www.google.fi/maps?q=62.5942167,29.7365783" id="wake4break">
+        <img class="park_map" src="https://maps.googleapis.com/maps/api/staticmap?center=62.5942167,29.7365783&amp;zoom=15&amp;size=300x400&amp;maptype=roadmap&amp;markers=icon:https://wakeparkit.fi/media/OneTower.png%7C60.1715187,24.9013484&amp;markers=icon:https://wakeparkit.fi/media/OneTower.png%7C62.5940167,29.7383783&amp;markers=icon:https://wakeparkit.fi/media/OneTower.png%7C62.5938167,29.7343783&amp;style=feature:road%7Celement:geometry%7Ccolor:0xffe1b2&amp;style=feature:landscape.man_made%7Celement:geometry.fill%7Ccolor:0xf7e1cc&amp;style=feature:landscape.natural%7Celement:geometry.fill%7Ccolor:0xffbdcb&amp;style=feature:landscape.natural.landcover%7Celement:geometry.fill%7Ccolor:0x00bdbf&amp;style=feature:landscape.natural.terrain%7Celement:geometry.fill%7Ccolor:0x98ceb4&amp;style=feature:water%7Celement:geometry.fill%7Ccolor:0x00bec8&amp;style=element:labels%7Ccolor:0xffffff&amp;style=element:labels.text.stroke%7Cvisibility:off&amp;style=element:labels.icon%7Cvisibility:off&amp;key=AIzaSyAtUNkgUu1-VfzdrS5GN_XMggHw3SFYjEk">
+        <i class="material-icons park_weather_wind_icon" id="wake4break" style="transform: rotate(-6deg);">navigation</i>
+        <div class="park_weather_wind_speed" id="wake4break">3 m/s</div>
+      </a>
+      <div class="info">
+        <div class="park_title">Wake4Break</div>
+        <div class="park_location">Joensuu</div>
+        <div class="park_desc">Two-tower</div>
+        <a class="www_link" onclick="sendEvent('www', this.id)" href="http://wake4break.com/" id="wake4break">www</a>
+        <a class="fb_link" onclick="sendEvent('fb', this.id)" href="https://www.facebook.com/wake4break/w" id="wake4break">FB</a>
+        <a class="ig_link" onclick="sendEvent('ig', this.id)" href="https://www.instagram.com/wake4break/" id="wake4break">ig</a>
+        <div class="park_weather" id="wake4break">Weather now</div>
+        <img class="park_weather_icon" id="wake4break" src="https://openweathermap.org/img/wn/13n@2x.png">
+        <div class="park_temperature" id="wake4break">1°C</div>
+      </div>
+    </div>
+
+    <div class="park" id="ukkohalla">
+      <a target="_blank" class="map" onclick="sendEvent('map', this.id)" href="https://www.google.fi/maps?q=64.740611,28.2416133" id="ukkohalla">
+        <img class="park_map" src="https://maps.googleapis.com/maps/api/staticmap?center=64.740611,28.2416133&amp;zoom=15&amp;size=300x400&amp;maptype=roadmap&amp;markers=icon:https://wakeparkit.fi/media/OneTower.png%7C60.1715187,24.9013484&amp;markers=icon:https://wakeparkit.fi/media/Towers.png%7C64.740311,28.2436133&amp;markers=icon:https://wakeparkit.fi/media/Towers.png%7C64.742711,28.2420133&amp;markers=icon:https://wakeparkit.fi/media/Towers.png%7C64.742311,28.2393133&amp;markers=icon:https://wakeparkit.fi/media/Towers.png%7C64.739911,28.2410133&amp;style=feature:road%7Celement:geometry%7Ccolor:0xffe1b2&amp;style=feature:landscape.man_made%7Celement:geometry.fill%7Ccolor:0xf7e1cc&amp;style=feature:landscape.natural%7Celement:geometry.fill%7Ccolor:0xffbdcb&amp;style=feature:landscape.natural.landcover%7Celement:geometry.fill%7Ccolor:0x00bdbf&amp;style=feature:landscape.natural.terrain%7Celement:geometry.fill%7Ccolor:0x98ceb4&amp;style=feature:water%7Celement:geometry.fill%7Ccolor:0x00bec8&amp;style=element:labels%7Ccolor:0xffffff&amp;style=element:labels.text.stroke%7Cvisibility:off&amp;style=element:labels.icon%7Cvisibility:off&amp;key=AIzaSyAtUNkgUu1-VfzdrS5GN_XMggHw3SFYjEk">
+        <i class="material-icons park_weather_wind_icon" id="ukkohalla" style="transform: rotate(-34deg);">navigation</i>
+        <div class="park_weather_wind_speed" id="ukkohalla">1 m/s</div>
+      </a>
+      <div class="info">
+        <div class="park_title">Ukkohalla</div>
+        <div class="park_location">Hyrynsalmi</div>
+        <div class="park_desc">4-tower</div>
+        <a class="www_link" onclick="sendEvent('www', this.id)" href="http://ukkohalla.fi/wakeboard-esittely/" id="ukkohalla">www</a>
+        <a class="fb_link" onclick="sendEvent('fb', this.id)" href="https://www.facebook.com/ukkohallacablepark" id="ukkohalla">FB</a>
+        <a class="ig_link" onclick="sendEvent('ig', this.id)" href="https://www.instagram.com/ukkohalla_cablepark/" id="ukkohalla">ig</a>
+        <div class="park_weather" id="ukkohalla">Weather now</div>
+        <img class="park_weather_icon" id="ukkohalla" src="https://openweathermap.org/img/wn/13n@2x.png">
+        <div class="park_temperature" id="ukkohalla">-1°C</div>
+      </div>
+    </div>
+
+    <div class="park" id="ouluwakepark">
+      <a target="_blank" class="map" onclick="sendEvent('map', this.id)" href="https://www.google.fi/maps?q=65.0172075,25.4624777" id="ouluwakepark">
+        <img class="park_map" src="https://maps.googleapis.com/maps/api/staticmap?center=65.0172075,25.4624777&amp;zoom=15&amp;size=300x400&amp;maptype=roadmap&amp;markers=icon:https://wakeparkit.fi/media/OneTower.png%7C60.1715187,24.9013484&amp;markers=icon:https://wakeparkit.fi/media/OneTower.png%7C65.0172075,25.4647377&amp;markers=icon:https://wakeparkit.fi/media/OneTower.png%7C65.0159075,25.4629377&amp;style=feature:road%7Celement:geometry%7Ccolor:0xffe1b2&amp;style=feature:landscape.man_made%7Celement:geometry.fill%7Ccolor:0xf7e1cc&amp;style=feature:landscape.natural%7Celement:geometry.fill%7Ccolor:0xffbdcb&amp;style=feature:landscape.natural.landcover%7Celement:geometry.fill%7Ccolor:0x00bdbf&amp;style=feature:landscape.natural.terrain%7Celement:geometry.fill%7Ccolor:0x98ceb4&amp;style=feature:water%7Celement:geometry.fill%7Ccolor:0x00bec8&amp;style=element:labels%7Ccolor:0xffffff&amp;style=element:labels.text.stroke%7Cvisibility:off&amp;style=element:labels.icon%7Cvisibility:off&amp;key=AIzaSyAtUNkgUu1-VfzdrS5GN_XMggHw3SFYjEk">
+        <i class="material-icons park_weather_wind_icon" id="ouluwakepark" style="transform: rotate(140deg);">navigation</i>
+        <div class="park_weather_wind_speed" id="ouluwakepark">1 m/s</div>
+      </a>
+      <div class="info">
+        <div class="park_title">Oulu Wakepark</div>
+        <div class="park_location">Oulu</div>
+        <div class="park_desc">Two-tower</div>
+        <a class="www_link" onclick="sendEvent('www', this.id)" href="https://www.ouluwakepark.com/" id="ouluwakepark">www</a>
+        <a class="fb_link" onclick="sendEvent('fb', this.id)" href="https://www.facebook.com/ouluwakepark" id="ouluwakepark">FB</a>
+        <a class="ig_link" onclick="sendEvent('ig', this.id)" href="https://www.instagram.com/ouluwakepark/" id="ouluwakepark">ig</a>
+        <div class="park_weather" id="ouluwakepark">Weather now</div>
+        <img class="park_weather_icon" id="ouluwakepark" src="https://openweathermap.org/img/wn/13n@2x.png">
+        <div class="park_temperature" id="ouluwakepark">-1°C</div>
+      </div>
+    </div>
+
+    <div class="park" id="gr8wake">
+      <a target="_blank" class="map" onclick="sendEvent('map', this.id)" href="https://www.google.fi/maps?q=62.235242,25.744897" id="gr8wake">
+        <img class="park_map" src="https://maps.googleapis.com/maps/api/staticmap?center=62.235242,25.744897&amp;zoom=15&amp;size=300x400&amp;maptype=roadmap&amp;markers=icon:https://wakeparkit.fi/media/OneTower.png%7C60.1715187,24.9013484&amp;markers=icon:https://wakeparkit.fi/media/OneTower.png%7C62.2350242,25.744897&amp;markers=icon:https://wakeparkit.fi/media/OneTower.png%7C62.2335242,25.748497&amp;style=feature:road%7Celement:geometry%7Ccolor:0xffe1b2&amp;style=feature:landscape.man_made%7Celement:geometry.fill%7Ccolor:0xf7e1cc&amp;style=feature:landscape.natural%7Celement:geometry.fill%7Ccolor:0xffbdcb&amp;style=feature:landscape.natural.landcover%7Celement:geometry.fill%7Ccolor:0x00bdbf&amp;style=feature:landscape.natural.terrain%7Celement:geometry.fill%7Ccolor:0x98ceb4&amp;style=feature:water%7Celement:geometry.fill%7Ccolor:0x00bec8&amp;style=element:labels%7Ccolor:0xffffff&amp;style=element:labels.text.stroke%7Cvisibility:off&amp;style=element:labels.icon%7Cvisibility:off&amp;key=AIzaSyAtUNkgUu1-VfzdrS5GN_XMggHw3SFYjEk">
+        <i class="material-icons park_weather_wind_icon" id="gr8wake" style="transform: rotate(89deg);">navigation</i>
+        <div class="park_weather_wind_speed" id="gr8wake">3 m/s</div>
+      </a>
+      <div class="info">
+        <div class="park_title">Gr8Wake</div>
+        <div class="park_location">Jyväskylä</div>
+        <div class="park_desc">Two-tower</div>
+        <a class="www_link" onclick="sendEvent('www', this.id)" href="https://gr8wake.com" id="gr8wake">www</a>
+        <a class="fb_link" onclick="sendEvent('fb', this.id)" href="https://www.facebook.com/Gr8wake" id="gr8wake">FB</a>
+        <a class="ig_link" onclick="sendEvent('ig', this.id)" href="https://www.instagram.com/gr8wake_jkl/" id="gr8wake">ig</a>
+        <div class="park_weather" id="gr8wake">Weather now</div>
+        <img class="park_weather_icon" id="gr8wake" src="https://openweathermap.org/img/wn/04n@2x.png">
+        <div class="park_temperature" id="gr8wake">-0°C</div>
+      </div>
+    </div>
+
+    <div class="park" id="southbeachwake">
+      <a target="_blank" class="map" onclick="sendEvent('map', this.id)" href="https://www.google.fi/maps?q=60.9908036,24.4603596" id="southbeachwake">
+        <img class="park_map" src="https://maps.googleapis.com/maps/api/staticmap?center=60.9908036,24.4603596&amp;zoom=15&amp;size=300x400&amp;maptype=roadmap&amp;markers=icon:https://wakeparkit.fi/media/OneTower.png%7C60.1715187,24.9013484&amp;markers=icon:https://wakeparkit.fi/media/OneTower.png%7C60.9908036,24.4616596&amp;markers=icon:https://wakeparkit.fi/media/OneTower.png%7C60.9885036,24.4615596&amp;style=feature:road%7Celement:geometry%7Ccolor:0xffe1b2&amp;style=feature:landscape.man_made%7Celement:geometry.fill%7Ccolor:0xf7e1cc&amp;style=feature:landscape.natural%7Celement:geometry.fill%7Ccolor:0xffbdcb&amp;style=feature:landscape.natural.landcover%7Celement:geometry.fill%7Ccolor:0x00bdbf&amp;style=feature:landscape.natural.terrain%7Celement:geometry.fill%7Ccolor:0x98ceb4&amp;style=feature:water%7Celement:geometry.fill%7Ccolor:0x00bec8&amp;style=element:labels%7Ccolor:0xffffff&amp;style=element:labels.text.stroke%7Cvisibility:off&amp;style=element:labels.icon%7Cvisibility:off&amp;key=AIzaSyAtUNkgUu1-VfzdrS5GN_XMggHw3SFYjEk">
+        <i class="material-icons park_weather_wind_icon" id="southbeachwake" style="transform: rotate(80deg);">navigation</i>
+        <div class="park_weather_wind_speed" id="southbeachwake">2 m/s</div>
+      </a>
+      <div class="info">
+        <div class="park_title">South Beach Wake</div>
+        <div class="park_location">Hämeenlinna</div>
+        <div class="park_desc">Two-tower</div>
+        <a class="www_link" onclick="sendEvent('www', this.id)" href="http://www.southbeachwake.fi/" id="southbeachwake">www</a>
+        <a class="fb_link" onclick="sendEvent('fb', this.id)" href="https://www.facebook.com/southbeachwake/" id="southbeachwake">FB</a>
+        <a class="ig_link" onclick="sendEvent('ig', this.id)" href="https://www.instagram.com/southbeachwake/" id="southbeachwake">ig</a>
+        <div class="park_weather" id="southbeachwake">Weather now</div>
+        <img class="park_weather_icon" id="southbeachwake" src="https://openweathermap.org/img/wn/04n@2x.png">
+        <div class="park_temperature" id="southbeachwake">-2°C</div>
+      </div>
+    </div>
+
+    <div class="park" id="funpark">
+      <a target="_blank" class="map" onclick="sendEvent('map', this.id)" href="https://www.google.fi/maps?q=61.135264,21.4740347" id="funpark">
+        <img class="park_map" src="https://maps.googleapis.com/maps/api/staticmap?center=61.135264,21.4740347&amp;zoom=15&amp;size=300x400&amp;maptype=roadmap&amp;markers=icon:https://wakeparkit.fi/media/OneTower.png%7C60.1715187,24.9013484&amp;markers=icon:https://wakeparkit.fi/media/OneTower.png%7C61.135264,21.4750347&amp;markers=icon:https://wakeparkit.fi/media/OneTower.png%7C61.135164,21.4725047&amp;style=feature:road%7Celement:geometry%7Ccolor:0xffe1b2&amp;style=feature:landscape.man_made%7Celement:geometry.fill%7Ccolor:0xf7e1cc&amp;style=feature:landscape.natural%7Celement:geometry.fill%7Ccolor:0xffbdcb&amp;style=feature:landscape.natural.landcover%7Celement:geometry.fill%7Ccolor:0x00bdbf&amp;style=feature:landscape.natural.terrain%7Celement:geometry.fill%7Ccolor:0x98ceb4&amp;style=feature:water%7Celement:geometry.fill%7Ccolor:0x00bec8&amp;style=element:labels%7Ccolor:0xffffff&amp;style=element:labels.text.stroke%7Cvisibility:off&amp;style=element:labels.icon%7Cvisibility:off&amp;key=AIzaSyAtUNkgUu1-VfzdrS5GN_XMggHw3SFYjEk">
+        <i class="material-icons park_weather_wind_icon" id="funpark" style="transform: rotate(57deg);">navigation</i>
+        <div class="park_weather_wind_speed" id="funpark">3 m/s</div>
+      </a>
+      <div class="info">
+        <div class="park_title">Fun Park</div>
+        <div class="park_location">Rauma</div>
+        <div class="park_desc">Two-tower</div>
+        <a class="www_link" onclick="sendEvent('www', this.id)" href="http://www.poroholma.fi/funpark" id="funpark">www</a>
+        <a class="fb_link" onclick="sendEvent('fb', this.id)" href="https://www.facebook.com/FunParkRauma/" id="funpark">FB</a>
+        
+        <div class="park_weather" id="funpark">Weather now</div>
+        <img class="park_weather_icon" id="funpark" src="https://openweathermap.org/img/wn/04n@2x.png">
+        <div class="park_temperature" id="funpark">-0°C</div>
+      </div>
+    </div>
+
+    <div class="park" id="epopwake">
+      <a target="_blank" class="map" onclick="sendEvent('map', this.id)" href="https://www.google.fi/maps?q=62.7951241,22.9101845" id="epopwake">
+        <img class="park_map" src="https://maps.googleapis.com/maps/api/staticmap?center=62.7951241,22.9101845&amp;zoom=15&amp;size=300x400&amp;maptype=roadmap&amp;markers=icon:https://wakeparkit.fi/media/OneTower.png%7C60.1715187,24.9013484&amp;markers=icon:https://wakeparkit.fi/media/OneTower.png%7C62.7951241,22.9121264&amp;markers=icon:https://wakeparkit.fi/media/OneTower.png%7C62.7955241,22.9096264&amp;style=feature:road%7Celement:geometry%7Ccolor:0xffe1b2&amp;style=feature:landscape.man_made%7Celement:geometry.fill%7Ccolor:0xf7e1cc&amp;style=feature:landscape.natural%7Celement:geometry.fill%7Ccolor:0xffbdcb&amp;style=feature:landscape.natural.landcover%7Celement:geometry.fill%7Ccolor:0x00bdbf&amp;style=feature:landscape.natural.terrain%7Celement:geometry.fill%7Ccolor:0x98ceb4&amp;style=feature:water%7Celement:geometry.fill%7Ccolor:0x00bec8&amp;style=element:labels%7Ccolor:0xffffff&amp;style=element:labels.text.stroke%7Cvisibility:off&amp;style=element:labels.icon%7Cvisibility:off&amp;key=AIzaSyAtUNkgUu1-VfzdrS5GN_XMggHw3SFYjEk">
+        <i class="material-icons park_weather_wind_icon" id="epopwake" style="transform: rotate(79deg);">navigation</i>
+        <div class="park_weather_wind_speed" id="epopwake">2 m/s</div>
+      </a>
+      <div class="info">
+        <div class="park_title">EPOP Wake</div>
+        <div class="park_location">Seinäjoki</div>
+        <div class="park_desc">Two-tower</div>
+        <a class="www_link" onclick="sendEvent('www', this.id)" href="https://epopwake.fi/" id="epopwake">www</a>
+        <a class="fb_link" onclick="sendEvent('fb', this.id)" href="https://www.facebook.com/epopwake/" id="epopwake">FB</a>
+        <a class="ig_link" onclick="sendEvent('ig', this.id)" href="https://www.instagram.com/epopwake/" id="epopwake">ig</a>
+        <div class="park_weather" id="epopwake">Weather now</div>
+        <img class="park_weather_icon" id="epopwake" src="https://openweathermap.org/img/wn/04n@2x.png">
+        <div class="park_temperature" id="epopwake">-2°C</div>
+      </div>
+    </div>
 </main>
+<template id="parkTemplate">
+    <div class="park">
+      <a target="_blank" class="map" onclick="sendEvent('map', this.id)">
+        <img class="park_map" />
+        <i class="material-icons park_weather_wind_icon"></i>
+        <div class="park_weather_wind_speed"></div>
+      </a>
+      <div class="info">
+        <div class="park_title"></div>
+        <div class="park_location"></div>
+        <div class="park_desc"></div>
+        <a class="www_link" onclick="sendEvent('www', this.id)">www</a>
+        <a class="fb_link" onclick="sendEvent('fb', this.id)">FB</a>
+        <a class="ig_link" onclick="sendEvent('ig', this.id)">ig</a>
+        <div class="park_weather">Weather now</div>
+        <img class="park_weather_icon">
+        <div class="park_temperature"></div>
+      </div>
+    </div>
+</template>
 <article>Wakeparkit.fi is an independent one-man project, made for the love of the sport.</article>
 <footer id="footer">
     <div id="gear">Get yourself geared</div>
