@@ -44,13 +44,13 @@
 <header>
   <h1>Wakeparkit.fi</h1>
 </header>
+<article>There are 13 cable wakeboarding parks in Finland, with potentially one more opening this season just below the arctic circle. Wakeparkit.fi helps you find the best spots to wake.</article>
+<div class="wakepark_player">
+    <div id="ytplayer"></div>
+    <div class="player_controls" id="previous" onclick="player.previousVideo()"><</div>
+    <div class="player_controls" id="next" onclick="player.nextVideo()">></div>
+</div>
 <main id="container">
-    <article>There are 13 cable wakeboarding parks in Finland, with potentially one more opening this season just below the arctic circle. Wakeparkit.fi helps you find the best spots to wake.</article>
-    <div class="wakepark_player">
-      <div id="ytplayer"></div>
-      <div class="player_controls" id="previous" onclick="player.previousVideo()"><</div>
-      <div class="player_controls" id="next" onclick="player.nextVideo()">></div>
-  </div>
     <template id="parkTemplate">
       <div class="park">
         <a target="_blank" class="map" onclick="sendEvent('map', this.id)">
