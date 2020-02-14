@@ -1,6 +1,7 @@
 var wakeparkit = [];
 
 function load() {
+
   fetch('data/data.json')
   .then(function(response) {
     return response.json();
@@ -18,11 +19,10 @@ function render() {
         var container = document.getElementById("container");
         var parkTemplate = document.getElementById("parkTemplate");
         var parkItem;
-        var parkStaticElements = document.getElementsByClassName("park");
     
         for (i = 0; i < wakeparkit.length; i++) {
 
-                parkStaticElements.getElementById(wakeparkit[i].id).remove();
+                container.removeChild(document.getElementById(wakeparkit[i].id))
 
                 var markers = "";
                 for (j = 0; j < wakeparkit[i].towers.length; j++) {
@@ -38,6 +38,7 @@ function render() {
                 parkItem.querySelector(".park_title").textContent += wakeparkit[i].name;
                 parkItem.querySelector(".park_location").textContent += wakeparkit[i].location;
                 parkItem.querySelector(".park_desc").textContent += wakeparkit[i].desc;
+                parkItem.querySelector(".park_long_desc").textContent += wakeparkit[i].long_desc;
 
                 parkItem.querySelector(".park_map").src 
                 += "https://maps.googleapis.com/maps/api/staticmap?center="

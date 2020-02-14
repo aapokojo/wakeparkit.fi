@@ -202,21 +202,38 @@ img {
 .park_desc {
   font-weight: lighter;
   padding-top: 5px;
-  padding-bottom: 24px; 
+  padding-bottom: 5px; 
 }
 @media screen and (max-width: 480px) {
   .park_desc {
     font-size: 12px;
-    padding-bottom: 12px;
+    padding-bottom: 3px;
   }
 }
 
+.park_long_desc {
+  font-weight: lighter;
+  padding-bottom: 24px; 
+  margin-right: 12px;
+}
+@media screen and (max-width: 480px) {
+  .park_long_desc {
+    font-size: 12px;
+    padding-bottom: 12px;
+    margin-right: 6px;
+  }
+}
+
+.weather_block {
+  display: flex;
+  flex-direction: row;
+}
 .park_weather {
-  margin-top: 24px;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 @media screen and (max-width: 480px) {
   .park_weather {
-    margin-top: 16px;
     font-size: 12px;
   }
 }
@@ -260,14 +277,12 @@ img {
   }
 }
 .park_temperature {
-  font-size: 24px;
-  margin-left: 32px;
-  margin-top: -16px;
+  margin-top: auto;
+  margin-bottom: auto;
+  font-size: 18px;
 }
 @media screen and (max-width: 480px) {
   .park_temperature {
-    margin-left: 16px;
-    margin-top: -8px;
     font-size: 12px;
   }
 }
