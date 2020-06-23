@@ -29,7 +29,6 @@ h1 {
     font-size: 48px;
   }
 }
-
 header {
   background-image: url("/media/background.svg");
   background-repeat: repeat-x;
@@ -56,7 +55,7 @@ footer {
   margin-bottom: 10px;
 }
 
-a {
+a.www_link, a.fb_link, a.ig_link {
   background: #fec2d1;
   color: inherit;
   outline: 0;
@@ -70,12 +69,13 @@ a {
   opacity: 0.8;
 }
 @media screen and (max-width: 480px) {
-  a {
+  a.www_link, a.fb_link, a.ig_link {
     font-size: 18px; 
   }
 }
 
 a.map {
+  color: inherit;
   padding: 0px;
   position: relative; 
 }
