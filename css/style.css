@@ -81,6 +81,7 @@ a.map {
 }
 
 a.email {
+  color: inherit;
   background: #02d0db;
   font-family: 'Inconsolata', monospace;
   font-size: 16px;
@@ -91,6 +92,10 @@ a.email {
   margin: auto;
   display: block;
   text-align: center; 
+}
+
+a#buy {
+  color: inherit;
 }
 @media screen and (max-width: 480px) {
   a.email {
