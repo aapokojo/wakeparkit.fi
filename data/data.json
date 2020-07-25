@@ -1,15 +1,15 @@
 { "wakeparkit": [
 		{
 			"id": "wakespot",
-			"name": "Wakespot",
+			"name": "Hietsu Laguuni",
 			"location": "Helsinki",
 			"desc": "Two-tower",
 			"long_desc": "A laid back spot just bike-ride from Helsinki center. Good instructors for beginners and constantly changing innovative obstacle setup for the pros.",
 			"lat": "60.1715187",
 			"lon": "24.9030484",
-			"url": "http://www.wakespot.fi/",
-			"facebook": "https://www.facebook.com/WakespotHelsinki",
-			"instagram": "https://www.instagram.com/wakespothelsinki/",
+			"url": "http://laguuniin.fi/",
+			"facebook": "https://www.facebook.com/laguuniin",
+			"instagram": "https://www.instagram.com/laguuniin/",
 			"towers": [
 				{
 					"tower": "https://wakeparkit.fi/media/OneTower.png",

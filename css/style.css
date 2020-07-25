@@ -172,11 +172,6 @@ img {
 .info {
   margin-left: 10px; 
 }
-@media screen and (max-width: 480px) {
-  .info {
-    margin-left: 0px;
-  } 
-}
 
 .park {
   box-shadow: 10px 10px #000;
