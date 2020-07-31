@@ -181,6 +181,11 @@ img {
   flex-direction: row;
   margin: 15px; 
 }
+
+#midnightsun
+ {
+   opacity: 0.75;
+ }
 @media screen and (max-width: 480px) {
   .park {
     text-shadow: 2px 2px #fff;

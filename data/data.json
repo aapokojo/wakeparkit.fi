@@ -1,10 +1,10 @@
 { "wakeparkit": [
 		{
-			"id": "wakespot",
+			"id": "hietsu_laguuni",
 			"name": "Hietsu Laguuni",
 			"location": "Helsinki",
 			"desc": "Two-tower",
-			"long_desc": "A laid back spot just bike-ride from Helsinki center. Good instructors for beginners and constantly changing innovative obstacle setup for the pros.",
+			"long_desc": "A laid back spot just bike-ride from Helsinki center. Good set of innovative obstacles and kickers on both sides.",
 			"lat": "60.1715187",
 			"lon": "24.9030484",
 			"url": "http://laguuniin.fi/",
@@ -54,30 +54,6 @@
 					"tower": "https://wakeparkit.fi/media/OneTower.png",
 					"lat": "60.1701057",
 					"lon": "24.8326795"
-				}
-			]
-		},
-		{
-			"id": "midnightsun",
-			"name": "Midnight Sun Wake",
-			"location": "Rovaniemi",
-			"desc": "Two-tower",
-			"long_desc": "Support the spot! Buy stocks for initial funding to get this place up and running.",
-			"lat": "66.5197195",
-			"lon": "25.7430646",
-			"url": "https://www.midnightsunwake.fi/",
-			"facebook": "https://www.facebook.com/MidnightSunWake/",
-			"instagram": "https://www.instagram.com/midnightsunwake/",
-			"towers": [
-				{
-					"tower": "https://wakeparkit.fi/media/OneTower.png",
-					"lat": "66.5197195",
-					"lon": "25.7430646"
-				},
-				{
-					"tower": "https://wakeparkit.fi/media/OneTower.png",
-					"lat": "66.5199195",
-					"lon": "25.7415946"
 				}
 			]
 		},
@@ -194,6 +170,30 @@
 					"tower": "https://wakeparkit.fi/media/OneTower.png",
 					"lat": "64.1375285",
 					"lon": "28.2804896"
+				}
+			]
+		},
+		{
+			"id": "wakeparkimatra",
+			"name": "Wake Park Imatra",
+			"location": "Imatra",
+			"desc": "Two-tower",
+			"long_desc": "Next to a full service water sports center with a camping area, saunas, restaurants, swimming hall and more.",
+			"lat": "61.1868997",
+			"lon": "28.7788982",
+			"url": "https://wakeparkimatra.com/",
+			"facebook": "https://www.facebook.com/WakeParkImatra",
+			"instagram": "https://www.instagram.com/wake_in_vuoksi",
+			"towers": [
+				{
+					"tower": "https://wakeparkit.fi/media/OneTower.png",
+					"lat": "61.1882997",
+					"lon": "28.7784982"
+				},
+				{
+					"tower": "https://wakeparkit.fi/media/OneTower.png",
+					"lat": "61.1868997",
+					"lon": "28.7802982"
 				}
 			]
 		},
@@ -336,8 +336,8 @@
 			"lat": "61.135264",
 			"lon": "21.4740347",
 			"url": "http://www.poroholma.fi/funpark",
-			"facebook": "https://www.facebook.com/FunParkRauma/",
-			"instagram": "",
+			"facebook": "",
+			"instagram": "https://www.instagram.com/funparkrauma/",
 			"towers": [
 				{
 					"tower": "https://wakeparkit.fi/media/OneTower.png",
@@ -372,6 +372,30 @@
 					"tower": "https://wakeparkit.fi/media/OneTower.png",
 					"lat": "62.7955241",
 					"lon": "22.9096264"
+				}
+			]
+		},
+		{
+			"id": "midnightsun",
+			"name": "Midnight Sun Wake",
+			"location": "Rovaniemi",
+			"desc": "Two-tower",
+			"long_desc": "Support the spot! Buy stocks for initial funding to get this place up and running for 2021.",
+			"lat": "66.5197195",
+			"lon": "25.7430646",
+			"url": "https://www.midnightsunwake.fi/",
+			"facebook": "https://www.facebook.com/MidnightSunWake/",
+			"instagram": "https://www.instagram.com/midnightsunwake/",
+			"towers": [
+				{
+					"tower": "https://wakeparkit.fi/media/OneTower.png",
+					"lat": "66.5197195",
+					"lon": "25.7430646"
+				},
+				{
+					"tower": "https://wakeparkit.fi/media/OneTower.png",
+					"lat": "66.5199195",
+					"lon": "25.7415946"
 				}
 			]
 		}

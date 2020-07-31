@@ -19,10 +19,12 @@ function render() {
         var container = document.getElementById("container");
         var parkTemplate = document.getElementById("parkTemplate");
         var parkItem;
+
+        while (container.lastElementChild) {
+          container.removeChild(container.lastElementChild);
+        }
     
         for (i = 0; i < wakeparkit.length; i++) {
-
-                container.removeChild(document.getElementById(wakeparkit[i].id))
 
                 var markers = "";
                 for (j = 0; j < wakeparkit[i].towers.length; j++) {
