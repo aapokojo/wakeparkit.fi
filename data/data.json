@@ -328,30 +328,6 @@
 			]
 		},
 		{
-			"id": "funpark",
-			"name": "Fun Park",
-			"location": "Rauma",
-			"desc": "Two-tower",
-			"long_desc": "A cable wake park adjacent to all services of Poroholma camping area.",
-			"lat": "61.135264",
-			"lon": "21.4740347",
-			"url": "http://www.poroholma.fi/funpark",
-			"facebook": "",
-			"instagram": "https://www.instagram.com/funparkrauma/",
-			"towers": [
-				{
-					"tower": "https://wakeparkit.fi/media/OneTower.png",
-					"lat": "61.135264",
-					"lon": "21.4750347"
-				},
-				{
-					"tower": "https://wakeparkit.fi/media/OneTower.png",
-					"lat": "61.135164",
-					"lon": "21.4725047"
-				}
-			]
-		},
-		{
 			"id": "epopwake",
 			"name": "EPOP Wake",
 			"location": "Seinäjoki",
