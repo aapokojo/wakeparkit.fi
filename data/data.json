@@ -318,6 +318,30 @@
 			]
 		},
 		{
+			"id": "tohloppi",
+			"name": "Tohloppi Wake",
+			"location": "Tampere",
+			"desc": "Two-tower",
+			"long_desc": "From wakeboarding in the summer to ice skating in the winter. An all year sports spot.",
+			"lat": "61.5116681",
+			"lon": "23.6584738",
+			"url": "https://www.tohloppiwake.fi/",
+			"facebook": "https://www.facebook.com/tohloppiwake/",
+			"instagram": "https://www.instagram.com/tohloppiwake/",
+			"towers": [
+				{
+					"tower": "https://wakeparkit.fi/media/OneTower.png",
+					"lat": "61.5116681",
+					"lon": "23.6584738"
+				},
+				{
+					"tower": "https://wakeparkit.fi/media/OneTower.png",
+					"lat": "61.5118681",
+					"lon": "23.6526738"
+				}
+			]
+		},
+		{
 			"id": "wakevalley_tre",
 			"name": "Wake Valley",
 			"location": "Tampere",
