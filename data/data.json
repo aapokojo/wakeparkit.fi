@@ -85,8 +85,8 @@
 			"id": "wakevalley",
 			"name": "Wake Valley",
 			"location": "Ylöjärvi",
-			"desc": "3 x Two-tower",
-			"long_desc": "A full service park. Three tracks, accomodation, restauranta, sauna.",
+			"desc": "2 x Two-tower",
+			"long_desc": "A full service park. Two cables, accomodation, restaurants, sauna.",
 			"lat": "61.63989",
 			"lon": "23.5825674",
 			"url": "http://www.wakevalley.fi/",
@@ -105,16 +105,6 @@
 				},
 				{
 					"tower": "https://wakeparkit.fi/media/OneTower.png",
-					"lat": "61.63959",
-					"lon": "23.5845674"
-				},
-				{
-					"tower": "https://wakeparkit.fi/media/OneTower.png",
-					"lat": "61.63959",
-					"lon": "23.5815674"
-				},
-				{
-					"tower": "https://wakeparkit.fi/media/OneTower.png",
 					"lat": "61.63929",
 					"lon": "23.5845674"
 				},
@@ -122,30 +112,6 @@
 					"tower": "https://wakeparkit.fi/media/OneTower.png",
 					"lat": "61.63929",
 					"lon": "23.5815674"
-				}
-			]
-		},
-		{
-			"id": "wakevalley_tre",
-			"name": "Wake Valley",
-			"location": "Tampere",
-			"desc": "Two-tower",
-			"long_desc": "Extension of the original Valley, closer to Tampere city.",
-			"lat": "61.4907583",
-			"lon": "23.732685",
-			"url": "http://www.wakevalley.fi/",
-			"facebook": "https://www.facebook.com/wakevalley",
-			"instagram": "https://www.instagram.com/wake_valley/",
-			"towers": [
-				{
-					"tower": "https://wakeparkit.fi/media/OneTower.png",
-					"lat": "61.4904583",
-					"lon": "23.730887"
-				},
-				{
-					"tower": "https://wakeparkit.fi/media/OneTower.png",
-					"lat": "61.4905583",
-					"lon": "23.735887"
 				}
 			]
 		},
@@ -348,6 +314,30 @@
 					"tower": "https://wakeparkit.fi/media/OneTower.png",
 					"lat": "62.7955241",
 					"lon": "22.9096264"
+				}
+			]
+		},
+		{
+			"id": "wakevalley_tre",
+			"name": "Wake Valley",
+			"location": "Tampere",
+			"desc": "Two-tower",
+			"long_desc": "Extension of the original Valley, closer to Tampere city. (Opens in 2021)",
+			"lat": "61.4907583",
+			"lon": "23.732685",
+			"url": "http://www.wakevalley.fi/",
+			"facebook": "https://www.facebook.com/wakevalley",
+			"instagram": "https://www.instagram.com/wake_valley/",
+			"towers": [
+				{
+					"tower": "https://wakeparkit.fi/media/OneTower.png",
+					"lat": "61.4904583",
+					"lon": "23.730887"
+				},
+				{
+					"tower": "https://wakeparkit.fi/media/OneTower.png",
+					"lat": "61.4905583",
+					"lon": "23.735887"
 				}
 			]
 		},
