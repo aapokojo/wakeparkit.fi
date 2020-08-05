@@ -341,6 +341,30 @@
 				}
 			]
 		},
+				{
+			"id": "harjavalta",
+			"name": "Watersportspark",
+			"location": "Harjavalta",
+			"desc": "Two-tower",
+			"long_desc": "Traditional water skiing spot now equipped with a cable as well.",
+			"lat": "61.312776",
+			"lon": "22.1557676",
+			"url": "http://www.harjavallanvesihiihtajat.fi/",
+			"facebook": "https://www.facebook.com/Harjavallanvesihiihtajat",
+			"instagram": "https://www.instagram.com/harjavallan_vesihiihtajat/",
+			"towers": [
+				{
+					"tower": "https://wakeparkit.fi/media/OneTower.png",
+					"lat": "61.312776",
+					"lon": "22.1567676"
+				},
+				{
+					"tower": "https://wakeparkit.fi/media/OneTower.png",
+					"lat": "61.311276",
+					"lon": "22.1572676"
+				}
+			]
+		},
 		{
 			"id": "wakevalley_tre",
 			"name": "Wake Valley",
