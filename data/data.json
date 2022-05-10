@@ -164,16 +164,16 @@
 			]
 		},
 		{
-			"id": "wake4break",
-			"name": "Wake4Break",
+			"id": "laituri",
+			"name": "Vesiurheilukeskus Laituri",
 			"location": "Joensuu",
 			"desc": "Two-tower",
 			"long_desc": "Easy access park, right in the center of Joensuu, next to Linnunlahti beach.",
 			"lat": "62.5942167",
 			"lon": "29.7365783",	
-			"url": "http://wake4break.com/",
-			"facebook": "https://www.facebook.com/wake4break/w",
-			"instagram": "https://www.instagram.com/wake4break/",
+			"url": "https://www.laiturille.fi/	",
+			"facebook": "https://www.facebook.com/Laiturille/",
+			"instagram": "https://www.instagram.com/laituril/",
 			"towers": [
 				{
 					"tower": "https://wakeparkit.fi/media/OneTower.png",
