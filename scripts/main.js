@@ -95,11 +95,10 @@ function sendEvent(event_category, event_label) {
 
 function showWeather(id, lat, lon) {
 
-        fetch('https://api.openweathermap.org/data/2.5/forecast'
+        fetch('/api/weather'
         + '?lat=' + lat
         + '&lon=' + lon
-        + '&units=metric'
-        + '&appid=09df1a8594f61537951eb23228d2aa0b')
+        + '&units=metric')
         .then(function(response) {
                 return response.json();
         })
